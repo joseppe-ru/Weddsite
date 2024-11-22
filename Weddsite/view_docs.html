@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Viewer</title>
+    <link rel="stylesheet" href="css/md_style.css">
+    <!-- <script src="js/marked.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- PHP ansatz zum einlesen der MD dateien -->
+    <!-- <div class='md'><?= htmlspecialchars(file_get_contents('file.md')); ?></div> -->
+    <nav>
+        <a href="index.html">Zurück zur Startseite</a>
+    </nav>
+    <div id="markdown-content"></div>
+
+    <script src="js/markdown-loader.js"></script>
+    
+</body>
+</html>

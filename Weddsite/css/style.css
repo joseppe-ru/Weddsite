@@ -4,16 +4,16 @@ Ich habe versucht, die graphische Darstllung der Wbsite etwas aufzuteilen
 2. Hirachschich, HTML tags, wenn ich die um Syle, dann ist das im genral.css zu finden */
 
 /* allgemein */
-@import url(css/general.css);
+@import url(general.css);
 
 /* Abschnitt 0 */
-@import url(css/page_headl.css);
+@import url(page_headl.css);
 
 /* Abschnitt 1: das Willkommen  */
-@import url(css/page_welco.css);
+@import url(page_welco.css);
 
 /* Abschnitt 2: Informationen */
-@import url(css/page_infor.css);
+@import url(page_infor.css);
 
 /* Countdown Timer */
-@import url(css/page_count.css);
+@import url(page_count.css);
