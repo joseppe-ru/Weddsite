@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "c39b32c8f4e0d670",
+    "type": "split",
+    "children": [
+      {
+        "id": "370aba1b4c800237",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce5d23692668356f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hochzeit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hochzeit"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fd3b3df41f9aa791",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d043c4fdb9169a61",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "04ff9bf9d57b10b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "df28e48397fa920f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b3ebe6531d37542",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4cf3a0ff9c0a94ef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0b1d442999c9762e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6006db01da1d2ec7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0c3b98266103b0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0467a678461555cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hochzeit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Hochzeit"
+            }
+          },
+          {
+            "id": "07ac954ca25e9975",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hochzeit.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Hochzeit"
+            }
+          },
+          {
+            "id": "22c90f8743b341f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "21add76a3e694e93",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hochzeit.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Hochzeit"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ce5d23692668356f",
+  "lastOpenFiles": [
+    "Trauzeugen und Abspracheformat.md",
+    "Hochzeit.md",
+    "Dokumentation.md",
+    "Website.md",
+    "Budget.md",
+    "Ablauf.md"
+  ]
+}
