@@ -1,2 +1,2 @@
 Die Website soll ausführliche Informationen über die Hochzeit enthalten:
-- git Projekt: "NetzBlatt"
+- Programmier-Projekt: [GitHub](https://github.com/joseppe-ru/Weddsite)
