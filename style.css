@@ -1,0 +1,19 @@
+/* Zur Beschreibung der ganzen CSS scheiße hier
+Ich habe versucht, die graphische Darstllung der Wbsite etwas aufzuteilen
+1. Aufteilung nach Segmenten / Seiten top to down und relativ selbserklärend
+2. Hirachschich, HTML tags, wenn ich die um Syle, dann ist das im genral.css zu finden */
+
+/* allgemein */
+@import url(css/general.css);
+
+/* Abschnitt 0 */
+@import url(css/page_headl.css);
+
+/* Abschnitt 1: das Willkommen  */
+@import url(css/page_welco.css);
+
+/* Abschnitt 2: Informationen */
+@import url(css/page_infor.css);
+
+/* Countdown Timer */
+@import url(css/page_count.css);
