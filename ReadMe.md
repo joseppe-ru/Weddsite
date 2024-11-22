@@ -1,9 +1,9 @@
 # Hochzeitswebsite
 
-# Design
+## Design
 das Design dieser Website soll Einheitlich dem Design einer *Alten DDR Zeitung* folgen
 
-# Inhalte
+## Inhalte
 - aktuelle Informationen zur Hochzeit
 	> Wann
 	> Wo
@@ -28,4 +28,4 @@ das Design dieser Website soll Einheitlich dem Design einer *Alten DDR Zeitung* 
 	> Nextcloud (Bilder Hochladen)
 	> ...
 
-# Zeitplan
+## Zeitplan
