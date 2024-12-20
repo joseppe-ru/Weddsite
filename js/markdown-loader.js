@@ -60,7 +60,9 @@ async function fetchhead(){
 marked.setOptions({ renderer });
 
 // HTTP-Header auslesen (da sollte Dateiname drin stehen)
-fetchhead();
+//fetchhead();
 
+let md_file = window.location.pathname.split('/');
+loadMarkdown(md_file[md_file.length-1]);
 
 // document.getElementById('markdown-content').innerHTML = marked.parse('# Marked in browser\n\nRendered by **marked**.');
