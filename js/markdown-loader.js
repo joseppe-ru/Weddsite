@@ -13,14 +13,14 @@ renderer.link = function (token) {
     // const target = href.startsWith('http') ? ' target="_blank"' : '';
 
     // Den HTML-Link generieren         ${target}
-    return `<a href="${href}" title="${token.title || ''}">${token.text}</a>`;
+    return `<a href="/${token.text||'error'}">${token.text}</a>`;
 };
 
 
 //Funktion zum laden der Initialen Dokumentations-datei
 async function loadMarkdown(filePath) {
     try {
-        const response = await fetch(`../Dokumentation/${filePath}`);
+        const response = await fetch(`/Dokumentation/${filePath}`);
         if (!response.ok) throw new Error(`Fehler beim Laden der Datei: ${response.status}`);
         const markdown = await response.text();
         document.getElementById('markdown-content').innerHTML = marked.parse(markdown);
@@ -59,10 +59,20 @@ async function fetchhead(){
 // Marked.js mit dem benutzerdefinierten Renderer konfigurieren
 marked.setOptions({ renderer });
 
-// HTTP-Header auslesen (da sollte Dateiname drin stehen)
-//fetchhead();
+// Markdown Filename aus Header auslesen (fetch)
+// fetchhead();
 
-let md_file = window.location.pathname.split('/');
-loadMarkdown(md_file[md_file.length-1]);
-
+// Markdow Filename aus Adresse auslesen (link beinhaltet Dateinamen):
+let fragment = window.location.hash.substring(1);
+console.log("Hash: "+fragment);
+var md_file;
+if (fragment && !fragment.endsWith('.md')){
+	md_file=fragment+".md";
+}else if(fragment && fragment.endsWith('.md')){
+	md_file = fragment
+}else {
+	md_file = "Hochzeit.md";
+}
+console.log("loading: "+md_file);
+loadMarkdown(md_file);
 // document.getElementById('markdown-content').innerHTML = marked.parse('# Marked in browser\n\nRendered by **marked**.');
