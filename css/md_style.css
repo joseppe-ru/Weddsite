@@ -1,6 +1,20 @@
 #seperation{
-	border solid 5px black;
-	height 10px;
-	width 100%;
-	position absolut;
+	border: solid 2px black;
+	height: 0px;
+	width: 100%;
+	position: relativ;
+}
+
+th,td,tr{
+	padding: 1vh;
+	margin: 0px;
+	text-align: left;
+}
+
+th + th, td+ td{
+	border-left: solid 2px black;
+}
+
+tr + tr{
+	border-top: solid 2px black;
 }
