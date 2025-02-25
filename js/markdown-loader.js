@@ -16,10 +16,10 @@ renderer.link = function (token) {
     return `<a href="#${token.text||'error'}">${token.text}</a>`;
 };
 
-renderer.image = function(href,title,text){
-		const img_path = path.join(__dirname, href);
-		return `<img src="${img_path}" alt="${text}" title="${text}/>`;
-};
+//renderer.image = function(href,title,text){
+//		const img_path = path.join(__dirname, href);
+//		return `<img src="${img_path}" alt="${text}" title="${text}/>`;
+//};
 
 //Funktion zum laden der Initialen Dokumentations-datei
 async function loadMarkdown(filePath,containerName) {
