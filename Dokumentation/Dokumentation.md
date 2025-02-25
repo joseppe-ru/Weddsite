@@ -1,13 +1,6 @@
 Ich will hier alles aufschreiben, was wir besprechen/besprochen haben.
 Hier ist alles zu finden.
 
-# Wichtig!: 
-Der Vault muss irgendwie konventionell bspw. über die Hochzeitswebsite geteilt werden (ist ja nur MarkDown), für die, die Zugriff benötigen. (Passwortgeschüzt?)
-(auch siehe: [[Trauzeugen und Abspracheformat]])
-
-Ideen:
-- Quarz 4 - Obsidian to Website
-
 # Workaround/Technischer Fortschritt
 - Raspberry Pi:
 > Bash-script pull automatisch (immer 3.00Uhr nachts) die aktuelle Version des Repos
@@ -27,3 +20,7 @@ Ideen:
 - automatisierter Pull vom Raspberry
 - Website erreichbar über ReverseProxy
 - Zugriff auf Aktuellen Planungsfortschritt (mit Passwort)
+
+
+# Übersicht:
+- [[Hochzeit.md]] beinhaltet Link-Liste für Navigationsbereich

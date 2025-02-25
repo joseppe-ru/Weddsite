@@ -1,4 +1,4 @@
-Planungspunkte:
+## Navigationsbereich:
 - [Dokumentation](./Dokumentation.md)
 - [Budget](./Budget.md)
 - [Location](./Location.md)
