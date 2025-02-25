@@ -16,9 +16,9 @@ renderer.link = function (token) {
     return `<a href="#${token.text||'error'}">${token.text}</a>`;
 };
 
-renderer.image = function(href,title,text){
-		const img_path = path.join("Dokumentation/", href);
-		return `<img src="${img_path}" alt="${text}" title="${text}/>`;
+renderer.image = function(token){
+	console.log("loading Image:" + token);
+	return `<img class="Marked_Img" src="${"Dokumentation/" + token.href}"/>`;
 };
 
 //Funktion zum laden der Initialen Dokumentations-datei

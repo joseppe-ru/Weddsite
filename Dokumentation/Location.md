@@ -1,8 +1,8 @@
 # Festscheune Turm
-![nochmal vorn](vorn1.jpg)
+![Vorn](vorn1.jpg)
 ![Vorn](vorn2.jpg)
 ![Eingang](Eingang.jpg)
-![Treppenhaus](Treppenhaus.jpg)
+![Treppe](Treppenhaus.jpg)
 ![Kantine](Kantine.jpg)
 ![Durchgang](Durchgang.jpg)
 ![Halle](Halle.jpg)

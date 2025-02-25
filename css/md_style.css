@@ -18,3 +18,9 @@ th + th, td+ td{
 tr + tr{
 	border-top: solid 2px black;
 }
+
+.Marked_Img{
+	max-width: 33%;
+	height: 200px;
+	display: box;
+}
