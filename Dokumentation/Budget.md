@@ -1,5 +1,7 @@
-| Kostenstelle     | Budget | Kapitalgeber |
-| ---------------- | ------ | ------------ |
-| Kleidung         |        |              |
-| Location & Essen | 1500   | Bräutigam    |
-|                  |        |              |
+| Kostenstelle | Budget | Kapitalgeber |
+| ------------ | ------ | ------------ |
+| Kleidung     |        |              |
+| Location     | 500    |              |
+| Essen        | 1000   |              |
+| Deko         |        |              |
+|              |        |              |

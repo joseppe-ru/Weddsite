@@ -1,10 +1,29 @@
-Obsidian-Vault
 Ich will hier alles aufschreiben, was wir besprechen/besprochen haben.
 Hier ist alles zu finden.
 
-Wichtig!: 
+# Wichtig!: 
 Der Vault muss irgendwie konventionell bspw. über die Hochzeitswebsite geteilt werden (ist ja nur MarkDown), für die, die Zugriff benötigen. (Passwortgeschüzt?)
 (auch siehe: [[Trauzeugen und Abspracheformat]])
 
 Ideen:
 - Quarz 4 - Obsidian to Website
+
+# Workaround/Technischer Fortschritt
+- Raspberry Pi:
+> Bash-script pull automatisch (immer 3.00Uhr nachts) die aktuelle Version des Repos
+> NGINX Webserver (Docker) greift auf Website zu und kann Dokumentation (Markdown) abrufen
+> Repo liegt in Volume von NGINX
+> [Weitere Dokumentation in Smarthome-Repo zu finden](https://github.com/joseppe-ru/Smarthome/blob/main/Docs/Raspi/Raspi4B%2B.md#automated-git-pull)
+
+- Rendern der Markdown Dateien:
+> **marked.js** used as renderer
+> Verbesserungen für Tabellen und Links vorgenommen
+
+- Passwortgeschützt über htuseres und htpasswd
+
+# Workflow
+- Arbeiten an der Dokumentation/Website
+- Commit in git Repo
+- automatisierter Pull vom Raspberry
+- Website erreichbar über ReverseProxy
+- Zugriff auf Aktuellen Planungsfortschritt (mit Passwort)
