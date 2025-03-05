@@ -36,3 +36,17 @@ Pfingsten 23.05.
 ## alte Seilererei
 
 ## Festival
+
+# Einrichtung 
+- Fotoecke
+- Buffet
+- Geschenke Tisch 
+- Bühne 
+- Tanzfläche 
+- Essenstische / Stehtische / Stirntafel
+- Aktionsecke Gästebuch
+- Chillecke
+- DJ Boof
+- Garderobe
+
+
