@@ -1,26 +1,27 @@
 
-| Kostenstelle         | Budget | Kapitalgeber |
-| -------------------- | ------ | ------------ |
-| Kleidung             | 2000   |              |
-| Ringe                | 1000   |              |
-|                      |        |              |
-| Kirche               | 200    |              |
-| Kaffee-Location      |        |              |
-| Feier-Location       | 500    |              |
-| Einrichtung          | 1000   |              |
-| Deko (Blumen)        | 1000   |              |
-|                      |        |              |
-| Essen                | 1000   |              |
-| Trinken              | 1000   |              |
-| Fotograf             | 1000   |              |
-|                      |        |              |
-| Helfer               | 30 / p |              |
-|                      |        |              |
-| Unterkunft (Ehepaar) |        |              |
-|                      |        |              |
-| Musik (Band, DJ)     |        |              |
-|                      |        |              |
-| Hochzeitskutsche     | 1000   |              |
+| Kostenstelle         | Budget in € | Kapitalgeber                         |                       |
+| -------------------- | ----------- | ------------------------------------ | --------------------- |
+| Kleidung             | 1500        |                                      |                       |
+| Ringe                | 500         |                                      |                       |
+|                      |             |                                      |                       |
+| Kirche               | 200         |                                      |                       |
+| Kirchendeko          | -> Deko     |                                      |                       |
+| Kaffee-Location      | ---         |                                      |                       |
+| Feier-Location       | 1000        |                                      |                       |
+| Einrichtung          | ---         |                                      |                       |
+| Deko (Blumen)        | 1000        |                                      | Tisch, Blumen, Straus |
+|                      |             |                                      |                       |
+| Essen                | 3000        |                                      | 100p\*30€             |
+| Trinken              | 1000        |                                      | 100p\*10€             |
+| Fotograf             | 1000        |                                      |                       |
+|                      |             |                                      |                       |
+| Helfer (zusätzlich)  |             |                                      | p \*10€               |
+|                      |             |                                      |                       |
+| Unterkunft (Ehepaar) | ---         |                                      |                       |
+|                      |             |                                      |                       |
+| Musik (Band / DJ)    | ---         |                                      | Aus der Dose          |
+|                      |             |                                      |                       |
+| Hochzeitskutsche     | ---         | Tristan? Bentley? Julie Opa Traktor? | Wir sind vor Ort      |
 
 
 1. Voranschlag (könnte man, müsste man ausgeben)
