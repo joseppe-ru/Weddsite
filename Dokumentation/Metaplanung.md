@@ -8,8 +8,15 @@
 	- [ ] potentielle Kapitalgeber 
 
 - [ ] Einweihung
-	- [ ] Eltern Rudolph
+	- [x] Eltern Rudolph
 	- [ ] Eltern Storch
 	- [ ] Trauzeugen
 
+- [ ] Festlegung, Finalisierung
+	- [ ] bis 17.03. Soll Feier-Location feststehen
+	- [ ] Welche Kirche?
+	- [ ] Wo Kaffeetrinken?
+	- [ ] Kostenanschläge
+	- [ ] Teams, Angestellte, Aufgabenverteilung, Absprache
 
+- [ ] all beteiligten auf dem laufenden halten
