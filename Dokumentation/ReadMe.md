@@ -23,4 +23,6 @@ Hier ist alles zu finden.
 
 
 # Übersicht:
-- [[Hochzeit.md]] beinhaltet Link-Liste für Navigationsbereich
+- [Navigationsbereich](./Hochzeit.md) beinhaltet Link-Liste für Navigationsbereich
+- Wir Planen nach der [Metaplanung](Metaplanung). Die Planung über die Planung. Daraus kann man den aktuelle **Planungsfortschritt** und **ToDo-Liste** finden.
+- Einzelne Planungspunkte sind in seperaten Dateien aufgeführt

@@ -1,41 +1,27 @@
 # Festscheune Turm
-[Vorn](Images/vorn1.jpg)
-[Vorn](Images/vorn2.jpg)
-[Eingang](Images/Eingang.jpg)
-[Treppe](Images/Treppenhaus.jpg)
-[Kantine](Images/Kantine.jpg)
-[Durchgang](Images/Durchgang.jpg)
-[Halle](Images/Halle.jpg)
-[Lydia](Images/Ly_für_Maßstab.jpg)
-[Büne](Images/Büne.jpg)
+[Vorn](Images/vorn1.jpg); [Vorn](Images/vorn2.jpg);[Eingang](Images/Eingang.jpg);[Treppe](Images/Treppenhaus.jpg);[Kantine](Images/Kantine.jpg);[Durchgang](Images/Durchgang.jpg);[Halle](Images/Halle.jpg);[Lydia](Images/Ly_für_Maßstab.jpg);[Büne](Images/Büne.jpg);
 
-Termine:
+**Freie Termine:**
 18.04.
 25.04.
-
-bis März mit Heizkosten 
-
-Pfingsten 23.05.
+23.05. (Pfingsten)
 30.05.
-
 13.06.
 20.06.
 
-
-
-
+bis März mit Heizkosten 
 
 ## Stadtlicht
+zwar nicht so schön, aber eine Ausweichoption
 
 ## Kneipe oder Restaurante oder SpoHeim
+Landhotel Gutshof Zschocken - Gnad
 
-## Turnhalle?
+## Waldidyll
 
-## Zelthochzeit
+## Pohlteichschenke Kirchberg
 
-## alte Seilererei
 
-## Festival
 
 # Einrichtung 
 - Fotoecke
@@ -45,7 +31,7 @@ Pfingsten 23.05.
 - Tanzfläche 
 - Essenstische / Stehtische / Stirntafel
 - Aktionsecke Gästebuch
-- Chillecke
+- Chill- / Kinderecke
 - DJ Boof
 - Garderobe
 
