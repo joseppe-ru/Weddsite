@@ -14,14 +14,6 @@ bis März mit Heizkosten
 ## Stadtlicht
 zwar nicht so schön, aber eine Ausweichoption
 
-## Kneipe oder Restaurante oder SpoHeim
-Landhotel Gutshof Zschocken - Gnad
-
-## Waldidyll
-
-## Pohlteichschenke Kirchberg
-
-
 
 # Einrichtung 
 - Fotoecke

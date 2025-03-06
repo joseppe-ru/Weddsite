@@ -26,4 +26,9 @@
 
 1. Voranschlag (könnte man, müsste man ausgeben)
 2. Streichen und Reduzieren (geschickt)
-3. 
+
+# Kapital:
+- Spendenbox
+- Papa Rudi (nach Absprache abtreten einer bis mehrerer Kostenstellen)
+- Großeltern
+- Eltern Storch
