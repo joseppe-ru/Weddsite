@@ -2,30 +2,36 @@
 
 
 - [ ] Rahmenbedingungen klären (Was ist möglich)
-	- [ ] [[Budget]] festlegen 
+	- [x] [[Budget]] festlegen (Essen muss leiden)
 	- [x] Anz. Gäste -> 100 für Feier
 	- [x] intensivste Kostenstellen klären
-	- [ ] potentielle Kapitalgeber 
-	- [ ] potentielle Locations (Tabea Schwab fragen)
+	- [x] potentielle Kapitalgeber (Eltern sind eingeweiht)
+	- [x] potentielle Locations (Hädo klären)
 	- [ ] Kirche
-	- [ ] Helfer Vorüberlegung
-	- [ ] Prediger
+	- [x] Helfer Vorüberlegung
+	- [ ] Prediger (Seibt, Zirni)
 	- [x] Gästeliste
 
 - [ ] Einweihung
 	- [x] Eltern Rudolph
-	- [ ] Eltern Storch
-	- [ ] Trauzeugen
+	- [x] Eltern Storch
+	- [ ] **Trauzeugen** (Termine nennen, Vorhaben erklären Standesamt)
 	- [ ] Gäste (Einladen)
 	- [ ] Geladene Helfer (Gruppen für Deko, Räumungskomando, Kellner, Barkeeper)
 
 - [ ] Festlegung, Finalisierung erster Schritte
-	- [ ] Terminplan 
+	- [ ] Terminplan
+	- [ ] Standesamt Termin
+	- [ ] Save-The-Date
+	- [ ] Einladungskarten
 	- [ ] Rückmeldezeitraum und Neueinladungstermin
-	- [ ] bis 17.03. Soll Feier-Location feststehen
-	- [ ] Welche Kirche?
+	- [x] bis 17.03. Soll Feier-Location feststehen
+	- [x] Welche Kirche?
 	- [ ] Wo Kaffeetrinken?
 	- [ ] Kostenanschläge
 	- [ ] Teams, Angestellte, Aufgabenverteilung, Absprache
+	- [ ] Lothar festlegung
+	- [ ] Trauspruch
 
 - [ ] alle beteiligten auf dem laufenden halten
+	- [ ] Essens bringer (selbsbuffet?, abwaschen nach benutzung? abholung oder zurückbringung?)

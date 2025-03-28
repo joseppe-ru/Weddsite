@@ -11,11 +11,11 @@
 | Einrichtung          | ---         |                                      |                       |
 | Deko (Blumen)        | 1000        |                                      | Tisch, Blumen, Straus |
 |                      |             |                                      |                       |
-| Essen                | 3000        |                                      | 100p\*30€             |
+| Essen                | 3000        | Lothar                               | Gutes aus Weißbach    |
 | Trinken              | 1000        |                                      | 100p\*10€             |
 | Fotograf             | 1000        |                                      |                       |
 |                      |             |                                      |                       |
-| Helfer (zusätzlich)  |             |                                      | p \*10€               |
+| Helfer (zusätzlich)  | 100         |                                      | p \*10€               |
 |                      |             |                                      |                       |
 | Unterkunft (Ehepaar) | ---         |                                      |                       |
 |                      |             |                                      |                       |
@@ -31,4 +31,8 @@
 - Spendenbox
 - Papa Rudi (nach Absprache abtreten einer bis mehrerer Kostenstellen)
 - Großeltern
-- Eltern Storch
+- Eltern Storch -> kleinkosten und Aufwandt
+- Lothar -> Essen
+
+
+

@@ -5,3 +5,5 @@ Ablauf des großen Tages mit Zeitlicher Datierung:
 - Fest am Abend
 - Afterparty
 - Hochzeitsnacht
+
+Planungsterminkalernder auf Nextcloud

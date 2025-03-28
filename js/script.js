@@ -41,7 +41,7 @@ var Countdown_kachel = document.getElementById('countdown');
 // timer noch fertigmachen (datum ausrtechen und aktualisiern)
 function set_timer(){
     var datetime = new Date;
-    const marry_date = new Date('September 19, 2026 12:00:00');
+    const marry_date = new Date('March 28, 2026 14:00:00');
     var date_till = new Date(marry_date - datetime);
     let h = date_till.getHours();
     let m = date_till.getMinutes();
