@@ -1,0 +1,7 @@
+site_name: Wedding Info Browser
+
+nav:
+  - Home: Hochzeit.md
+
+theme:
+  name: 'material'
