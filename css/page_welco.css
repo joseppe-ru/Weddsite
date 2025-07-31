@@ -1,58 +1,66 @@
-.grid{
-    border: solid 5px;
-    position: absolute;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-color: black;
-    background-color: coral;
-    box-sizing: border-box;
+.welcome_grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+
+    grid-template-columns: 33% 17% 16% 34%;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-areas:
+        "greetings p_she marry marry"
+        "greetings p_she p_he  else"
+        "about     about p_he  else";
 }
 
-article.greetings{
-    top: 0;
-    left: 0;
-    width: 33%;
-    height: 66%;
+
+
+.welcome_grid .greetings    { grid-area: greetings; }
+.welcome_grid .portrait_she { grid-area: p_she; }
+.welcome_grid .marry        { grid-area: marry; }
+.welcome_grid .about        { grid-area: about; }
+.welcome_grid .portrait_he  { grid-area: p_he; }
+.welcome_grid .else         { grid-area: else; }
+
+
+
+.welcome_grid img.portrait {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-article.portrait_she{
-    top: 0;
-    left: 33%;
-    width: 17%;
-    height: 66%;
+@media (max-width: 768px) {
 
-    overflow: hidden;
+
+      /* Der übergeordnete Container für das Scrollen */
+      .grid_container {
+          overflow-x: scroll;
+          overflow-y: hidden;
+          scroll-snap-type: x mandatory;
+      }
+
+      /* Das Grid selbst, horizontal angeordnet */
+      .welcome_grid {
+          grid-auto-flow: column;
+          /*grid-template-columns: repeat(6, 85vw);*/
+          grid-template-rows: 1fr;
+          grid-template-areas: none;
+          display: grid;
+      }
+
+      /* Die einzelnen Artikel für das "Snapping" und die Platzierung vorbereiten */
+      .welcome_grid article {
+          /* WICHTIG: Setzt die "grid-area" vom Desktop zurück und erlaubt die automatische Platzierung */
+          grid-area: auto;
+          position: relative;
+
+          /* Das sorgt für das Andocken beim Scrollen */
+          scroll-snap-align: start;
+      }
 }
 
-article.marry{
-    top: 0;
-    left: 50%;
-    width: 50%;
-    height: 33%;
-}
 
-article.about{
-    top: 66%;
-    left: 0;
-    width: 50%;
-    height: 33%;
-}
 
-article.portrait_he{
-    top: 33%;
-    left: 50%;
-    width: 16%;
-    height: 66%;
-
-    overflow: hidden;
-}
-
-article.else{
-    top: 33%;
-    left: 66%;
-    width: 34%;
-    height: 66%;
-}
 
 .portrait{
     /* filter: grayscale(100%);
@@ -66,12 +74,14 @@ article.else{
     filter: gray;
     -webkit-filter: grayscale(1);
 
-    /* Zentrieren: */
+    /* Zentrieren:
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    */
 
-    /* Ausfüllen: */
+    /* Ausfüllen:
     height: 100%;
+    */
 }
