@@ -1,0 +1,19 @@
+{
+
+  "devDependencies": {
+
+    "http-server": "^14.1.1",
+
+    "live-server": "^1.2.2",
+
+    "nodemon": "^3.1.10"
+
+  },
+
+  "scripts": {
+
+    "start": "live-server --port=3000"
+
+  }
+
+} 

@@ -1,4 +1,4 @@
-.welcome_grid {
+.grid_container {
     display: grid;
     width: 100%;
     height: 100%;
@@ -12,18 +12,21 @@
         "about     about p_he  else";
 }
 
+.grid_instance{
+  border: solid black 2px;
+  overflow: hidden;
+}
+
+.grid_container .greetings    { grid-area: greetings; }
+.grid_container .portrait_she { grid-area: p_she; }
+.grid_container .marry        { grid-area: marry; }
+.grid_container .about        { grid-area: about; }
+.grid_container .portrait_he  { grid-area: p_he; }
+.grid_container .else         { grid-area: else; }
 
 
-.welcome_grid .greetings    { grid-area: greetings; }
-.welcome_grid .portrait_she { grid-area: p_she; }
-.welcome_grid .marry        { grid-area: marry; }
-.welcome_grid .about        { grid-area: about; }
-.welcome_grid .portrait_he  { grid-area: p_he; }
-.welcome_grid .else         { grid-area: else; }
 
-
-
-.welcome_grid img.portrait {
+.grid_container img.portrait {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -31,32 +34,43 @@
 
 @media (max-width: 768px) {
 
-
-      /* Der übergeordnete Container für das Scrollen */
       .grid_container {
-          overflow-x: scroll;
-          overflow-y: hidden;
-          scroll-snap-type: x mandatory;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: max-content;
+	overflow-x: auto;
+
+	height: 100vh;
+	gap: 1rem;
+	padding: 1rem;
+	box-sizing: border-box;
+
+
+
+        grid-template-columns: none;
+        grid-template-rows: none;
+        grid-template-areas: 
+            "greetings p_she marry about p_he else";
+        grid-column: none;
+	overflow-y: none;
+
+	scroll-padding-left: 1rem;
+	scroll-snap-type: x mandatory;
+	scroll-snap-align: start;
       }
 
-      /* Das Grid selbst, horizontal angeordnet */
-      .welcome_grid {
-          grid-auto-flow: column;
-          /*grid-template-columns: repeat(6, 85vw);*/
-          grid-template-rows: 1fr;
-          grid-template-areas: none;
-          display: grid;
+      /* dynamische Breite von einträgen je nach inhalt (text oder Bild*/
+      .grid_instance{
+        width: 80vw;
+        height: 90%;
       }
 
-      /* Die einzelnen Artikel für das "Snapping" und die Platzierung vorbereiten */
-      .welcome_grid article {
-          /* WICHTIG: Setzt die "grid-area" vom Desktop zurück und erlaubt die automatische Platzierung */
-          grid-area: auto;
-          position: relative;
 
-          /* Das sorgt für das Andocken beim Scrollen */
-          scroll-snap-align: start;
-      }
+    .grid_container img.portrait {
+        width: 80vw;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 
@@ -74,6 +88,7 @@
     filter: gray;
     -webkit-filter: grayscale(1);
 
+
     /* Zentrieren:
     top: 50%;
     left: 50%;
@@ -81,7 +96,5 @@
     position: absolute;
     */
 
-    /* Ausfüllen:
-    height: 100%;
-    */
+    /* Ausfüllen: */
 }
