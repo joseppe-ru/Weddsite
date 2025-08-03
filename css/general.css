@@ -65,3 +65,51 @@ p{
     0% {opacity: 0;}
     100% {opacity: 100;}
 }
+
+
+
+
+.arrow_container{
+	position: fixed;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 50%; /* Makes the container a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 60px;  /* Example width */
+    height: 60px; /* Example height */
+
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+}
+
+.arrow_container:hover {
+    background-color: rgba(255, 255, 55, 1); /* Fully opaque on hover */
+}
+
+
+#arrow{
+	display: flex;
+	aspect-ratio: 1;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+@keyframes bounce{
+    0% {transform: translateY(0);}
+    30% {transform: translateY(-10%);}
+    35% {transform: translateY(-11%);}
+    45% {transform: translateY(0);}
+    100%{transform: translateY(0);}
+}
