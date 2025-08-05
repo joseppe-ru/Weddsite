@@ -1,8 +1,9 @@
-section.page_headline {
+#page_headline {
     height: 100vh;
     width: 100vw;
     text-align: center;
 	justify-content: center;
+    background-color: #FFF1E6;
 }
 
 header {

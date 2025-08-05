@@ -1,31 +1,28 @@
+#page_information{
+    background-color: #FFF1E6;
+}
 .info_container{
-    display: inline-table;
-
+    /* display: inline-table; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px; /* Etwas Innenabstand schadet nie */
+    border: 1px solid #c70000ab; /* Zur Visualisierung */
 }
 
 @media (max-width: 768px) {
     .info_container{
-        display: grid;
-		overflow-x: auto;
-        overflow-y: none;
-        grid-template-columns: repeat(5, minmax(50vw, 90vw));
-        
-        gap: 1px;
-		height: 95vh;
-        box-sizing: border-box;
+        flex-wrap: nowrap;
+        overflow-x: auto;
     }
     
     .collumn{
-        padding-left: 2%;
-        padding-top: 10%;
-        height: 80%;
-        box-sizing: border-box;
-        width: 100%;
-        
+        flex-shrink: 0;
+        min-width: 70%;
     }
 
     .LocationMap{
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -33,24 +30,25 @@
 .collumn{
     font-size: 14px;
     line-height: 20px;
-    
-
-
-    
-
+    flex-grow: 1;
+    flex-basis: 250px;
     /*
     
     display:inline-table;
     grid-auto-columns: max-content;
     grid-auto-rows: max-content;
     padding: 0 1% 0 1%;
+    */
     vertical-align: top;
     margin-bottom: 50px;
     transition: all .7s;
-    position:relative;
-*/
+    
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1% 1% 0 1%;
     /* Das hier macht die Linien länger */
-    /* height: auto;  */
+    height: auto;  
 }
 
 /* Strich zwischen den Spalten */
