@@ -8,22 +8,18 @@ arrows.forEach(arrow =>
 }));
 
 // nacheinander einfliegen von Kacheln beim anschauen der Seite
-function is_in_viewport(element){ // retuns BOOLEAN
+function is_in_viewport(element,iteration){ // retuns BOOLEAN
     var rect = element.getBoundingClientRect(); // element müsste eins der grid-container sein
-	console.log("new-stats==")
-	console.log(window.scrollY)
-	console.log(window.scrollY + window.innerHeight)
-	console.log(rect.top)
-	console.log(rect.bottom)
-	let ret = rect.top > window.scrollY && rect.bottom < (window.scrollY + window.innerHeight)
-	console.log(ret)
-    return true;
+	let ret = rect.top >= -10 && rect.bottom <= window.innerHeight + 10
+    
+    return ret;
 }
 var elements_hover_in = document.querySelectorAll(".grid_container");
 console.log(elements_hover_in)
 function callback_hover_in(){
+    console.log("==>> Next Step")
     for(let i=0; i<elements_hover_in.length;i++){
-        if (is_in_viewport(elements_hover_in[i])){ // überprüfen, ob gird-container in viewport liegt??
+        if (is_in_viewport(elements_hover_in[i],i)){ // überprüfen, ob gird-container in viewport liegt??
             //console.log(true);
             elements_hover_in[i].classList.add("visible");
 
