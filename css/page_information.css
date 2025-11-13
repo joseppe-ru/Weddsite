@@ -1,0 +1,100 @@
+#page_info{
+    background-color: #FFF1E6;
+}
+
+/*Container config*/
+.information_container{
+    gap: 15px;
+    padding: 15px; 
+    border: 10px solid #c70000ab; /* Zur Visualisierung */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    transition: grid-template-columns 0.4s ease-in-out;
+}
+
+/* Regel für eingeklappte*/
+/*Karteikarte*/
+.index_card {
+  display: flex;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  overflow: hidden; /* Wichtig, um den Inhalt zu verstecken */
+  transition: all 0.4s ease-in-out; /* Übergang für Layout und Inhalt */
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Titel der Karteikarte*/
+.index_card p.title {
+    writing-mode: vertical-rl; 
+    text-orientation: mixed;
+    white-space: nowrap;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+/*Karteikartenkinder*/
+.index_card:not(.expanded) * {
+    display: none;
+}
+/*Titel*/
+.index_card:not(.expanded) p.title {
+    display: unset;
+}
+
+
+/*Regel für ausgeklappte*/
+/*Karteikarte*/
+.index_card.expanded {
+  background-color: #e0f7fa;
+  cursor:unset;
+}
+/*Karteikartenkinder*/
+.index_card.expanded * {
+    display: unset;
+}
+/*Titel*/
+.index_card.expanded p.title {
+    display: none;
+}
+
+
+/* Fall 1: 1. Karte erweitert (3 kleine, 1 große Spalte) */
+.information_container.expand-1 {
+    grid-template-columns: 
+        90%
+        minmax(1%, 30%)                                 
+        minmax(1%, 30%)          
+        minmax(1%, 30%); 
+}
+
+/* Fall 2: 2. Karte erweitert */
+.information_container.expand-2 {
+    grid-template-columns: 
+        minmax(1%, 30%)        
+        90%                         
+        minmax(1%, 30%)          
+        minmax(1%, 30%);         
+}
+
+/* Fall 3: 3. Karte erweitert */
+.information_container.expand-3 {
+    grid-template-columns: 
+        minmax(1%, 30%)          
+        minmax(1%, 30%)          
+        90% 
+        minmax(1%, 30%);       
+}
+
+/* Fall 4: 4. Karte erweitert */
+.information_container.expand-4 {
+    grid-template-columns: 
+        minmax(1%, 30%)         
+        minmax(1%, 30%)       
+        minmax(1%, 30%)          
+        90%; 
+
+}
+
+

@@ -51,3 +51,31 @@ function set_timer(){
     setTimeout(set_timer,500);
 }
 set_timer();
+
+
+function expandCard(clickedCard, position) {
+  // Finde den übergeordneten Container
+  const container = clickedCard.closest('.information_container');
+  
+  // Finde alle Karten
+  const allCards = container.querySelectorAll('.index_card');
+  
+  // 1. Entferne die "expanded" Klasse von allen Karten und die Layout-Klasse vom Container
+  allCards.forEach(card => {
+    card.classList.remove('expanded');
+  });
+
+  // Entferne alle expand-Klassen vom Container
+  container.classList.remove('expand-1', 'expand-2', 'expand-3', 'expand-4');
+
+  // 2. Prüfe, ob die geklickte Karte bereits erweitert war
+  // Wir verwenden die Container-Klasse, um den Zustand zu prüfen
+  const isAlreadyExpanded = container.classList.contains(`expand-${position}`);
+  
+  if (!isAlreadyExpanded) {
+    // 3. Wenn die Karte NOCH NICHT erweitert war: Erweitere sie
+    clickedCard.classList.add('expanded');
+    container.classList.add(`expand-${position}`);
+  } 
+  // Ansonsten: Klick dient als Toggle, d.h., beide Klassen bleiben entfernt.
+}
