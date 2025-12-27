@@ -1,5 +1,5 @@
 html{
-    overflow: scroll;
+    overflow: hidden;
     scroll-snap-type: y mandatory;
     scroll-padding-top: 0;
     margin:0;

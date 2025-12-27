@@ -79,3 +79,7 @@ function expandCard(clickedCard, position) {
   } 
   // Ansonsten: Klick dient als Toggle, d.h., beide Klassen bleiben entfernt.
 }
+
+// Initiale Index-Card, damit immer mindestens eine Ausgeklappt ist
+first_index_card = document.getElementById("initial_index_card")
+expandCard(first_index_card,1)
