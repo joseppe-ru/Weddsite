@@ -3,114 +3,12 @@
     width: 100vw;
     text-align: center;
 	justify-content: center;
-    background-color: var(--back-color1);
+    background-color: var(--back-color2);
 }
 
 .wolcome_container_new{
     width: 95vw;
-    height: 90vh;
-}
-
-
-.welcome_container {
-    display: grid;
-    width: 95vw;
-    height: 90vh;
-    gap: 10px;
-
-    grid-template-columns: 33% 17% 16% 34%;
-    grid-template-rows: 33% 33% 34%;
-    grid-template-areas:
-        "greetings p_she marry marry"
-        "greetings p_she p_he  else"
-        "about     about p_he  else";
-    
-}
-
-.welcome_instance{
-	border: solid black 2px;
-	overflow: hidden;
-	height: 100%;
-	width: 100%;
-    border-radius: 15px;
-}
-
-.welcome_container .greetings    { grid-area: greetings; background-color: #dda1c6cc;}
-.welcome_container .portrait_she { grid-area: p_she; border: none;}
-.welcome_container .marry        { grid-area: marry; background-color: #426a5ac9;}
-.welcome_container .about        { grid-area: about; background-color: #6c4b5ebb;}
-.welcome_container .portrait_he  { grid-area: p_he; border: none;}
-.welcome_container .else         { grid-area: else; background-color: #7fb685bd; }
-
-
-
-.welcome_container img.portrait {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-@media (max-width: 768px) {
-
-	.welcome_container {
-		display: grid;
-		grid-auto-flow: column;
-		grid-auto-columns: max-content;
-		overflow-x: auto;
-
-		height: 100vh;
-		gap: 1rem;
-		padding: 1rem;
-		box-sizing: border-box;
-
-		grid-template-columns: none;
-    	grid-template-rows: none;
-        grid-template-areas:
-        "greetings p_she marry else "
-        "greetings about p_he else";
-    	grid-column: none;
-		overflow-y: none;
-
-		scroll-padding-left: 1rem;
-		scroll-snap-type: x mandatory;
-		scroll-snap-align: start;
-    }	
-
-    /* dynamische Breite von einträgen je nach inhalt (text oder Bild*/
-	.welcome_instance{
-		/* height: 50; */
-        width: 50vw;
-	}
-
-	.welcome_instance.text_big{
-		width: 70vw;
-	}
-}
-
-
-
-
-.portrait{
-    /* filter: grayscale(100%);
-    -webkit-filter: sepia(20%) contrast(1) opacity(0.6); */
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: url(desaturate.svg#greyscale);
-    filter: gray;
-    -webkit-filter: grayscale(1);
-
-
-    /* Zentrieren:
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: relative;
-    */
-
-    /* Ausfüllen: */
+    height: 85vh;
 }
 
 

@@ -1,12 +1,12 @@
 :root {
     /* Light Mode */
-    --back-color1: #FFF1E6;
-    --back-color2: yellow;
-    --primary-color: blue;
-    --secondary-color: blue;
+    --back-color1: #baaa96;
+    --back-color2: #CBE7FF;
+    --primary-color: #426a5ac9;
+    --secondary-color: #7fb685bd;
     --tärtier-color: orange;
-    --primary-text-color: blue;
-    --secondary-text-color: blue;
+    --primary-text-color: #dda1c6cc;
+    --secondary-text-color: #6c4b5ebb;
     --tärtier-text-color: orange;
     
 

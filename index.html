@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/style.css" type="text/css" >
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <title>Hochzeit</title>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,init-scale=1.0">
+  </head>
 
-        <title>Hochzeit</title>
-				<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,init-scale=1.0">
-    </head>
-
-    <body>
+  <body>
 		<!-- Navigation Arrow Button -->
 		<!-- <div class="arrow_container">
             <article id="arrow">
@@ -22,20 +21,16 @@
 		</div> -->
 
         <!-- Überschrift  -->
-        <section id="page_headline">
-            <header>Wir</header>
+    <section id="page_headline">
+      <header>Wir</header>
+      <article class="headline_wrapper"></article>
+      <header>Heiraten</header>
+    </section>
 
-            <svg width="100" class="heart" height="100" viewBox="0 0 32 29.6" preserveAspectRatio="xMidYMid meet"  xmlns="http://www.w3.org/2000/svg">
-                <path class="heartpath" d="M23.6,0c-2.4,0-4.6,1.1-6.1,2.9C15.1,1.1,12.9,0,10.5,0C6.4,0,3,3.4,3,7.5c0,3.9,3.6,7.6,11.6,13.5
-                l1,0.9l1-0.9C25.4,15.1,29,11.4,29,7.5C29,3.4,25.6,0,23.6,0z"/>
-            </svg>
-            <header>Heiraten</header>
-        </section>
-
-        <!-- Zeitungsinhalte -->
-        <section class="page_welcome">
-            <!-- <div class="grid_container welcome_container"> -->
-                <div class="wolcome_container_new">
+    <!-- Zeitungsinhalte -->
+    <section class="page_welcome">
+      <!-- <div class="grid_container welcome_container"> -->
+      <div class="wolcome_container_new">
 
                 <!-- <article class="welcome_instance greetings text_big">Begrüßung einen übelsten Text, bis wann geht der
                   ichapsfuosiaughfboiasubgf ues fsi0uhfasuhf 0aiweshf 0isau fiusae fisa oifug asoiaseue
@@ -46,111 +41,155 @@
                 <article class="welcome_instance portrait_he picture">  <img class="portrait" src="images/RomantischeBild.jpeg" alt=""><p>Josia</p></article>
                 <article class="welcome_instance else text text_big">Viel zu tun</article> -->
 
-                <!-- Slideshow container -->
-                <div class="slideshow-container">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="slide-content">Folie1</div>
+          </div>
 
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="slide-content">Folie1</div>
-                </div>
+          <div class="mySlides fade">
+            <div class="slide-content">Folie2</div>
+          </div>
 
-                <div class="mySlides fade">
-                    <div class="slide-content">Folie2</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="slide-content">Folie3</div>
-                </div>
-
-                </div>
-                <br>
-
-                <!-- The dots/circles -->
-                <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-                </div>
+          <div class="mySlides fade">
+            <div class="slide-content">Folie3</div>
+          </div>
+        </div>
+        
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
 
 
-        </section>
+    </section>
+
+    <!-- Infos und ander Inhalte -->
+    <section id="page_info">
+      <div class="info_container">
+        
+        <!-- artikel 1 -->
+        <summary class="accordion">
+          <span class="headline hl1">Aktuelle Informationen</span>
+          <span class="roll_indicator"><a class="roll_symbol">^</a></span>
+        </summary>
+                
+        <article class="info_collumn">
+          <p>Der Halbleiterproduktionsprozess stellt besonders hohe Anforderungen an seine Prozessumgebungen, weshalb Frontend Fabriken von Halbleiterherstellern als Reinraum aufgebaut sind. Sie bestehen aus drei Ebenen: dem Reinraum mit den Prozess- und Messmaschinen auf mittlerer Ebene, der Sub-Fab mit Maschinen und Anlagen zur Aufbereitung von Reinstwasser, Abgasreinigung und Maschinenmedienversorgung über und unter dem Reinraum. 
+        </article>
+                
+        <!-- Artikel 2 -->
+        <summary class="accordion">
+          <span class="headline hl1">Links</span>
+        </summary>
+        
+        <article class="info_collumn">
+          <p>Informationen</p>
+        </article>
+
+        <!-- Artikel 3 -->
+        <summary class="accordion">
+          <span class="headline hl1">Anreise</span>
+        </summary>
+
+        <articel class="info_collumn">
+          <p>Informationen</p>
+        </articel>
+
+        <!-- Artikel 4 -->
+        <summary class="accordion">
+          <span class="headline hl1">Geschenk</span>
+        </summary>
+
+        <article class="info_collumn">
+          <p>Das Wünschen wir uns</p>
+        </article>
+
+      </div>
+    </section>
+
+
 
 <!-- Infos und ander Inhalte -->
-        <section id="page_information">
-            <div class="grid_container info_container">
-                <!-- Artikel 1 -->
-                <article class="collumn">
-
-                        <span class="headline hl1">Aktuelle Informationen</span>
-
-                        <span class="headline hl6">WO?</span>
-                        <p>was geht wo ab?</p>
-                        <p>Wir haben uns die Location hier herausgesucht. Es ist dort schön.</p>
-                        <p>Das ist der Link zu Google Maps...</p>
-
-                    <iframe class="LocationMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20227.844989006386!2d12.605324099999999!3d50.673903100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7333a24a8cba9%3A0xdd1e666a6a537348!2sLappen%20Ausstellung!5e0!3m2!1sde!2sde!4v1725889781747!5m2!1sde!2sde"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </article>
-
-                <!-- Artikel 2 -->
-                <article class="collumn">
-                    <span class="headline hl3">Geschenke</span>
-                    <span class="headline hl6">Geld</span>
-                    <p>Wir möchten nur euer Geld haben</p>
-                </article>
-
-                <!-- Artikel 3 -->
-                <article class="collumn">
-                    <span class="headline hl5">Links</span>
-                    <span class="headline hl6">Nextcloud</span>
-
-                    <!-- <figure class="figure">
-                        <img class="media" src="http://i.giphy.com/4fDWVPMoSyhgc.gif" alt="">
-                    </figure> -->
-
-                    <p>Wenn ihr Bilder mit uns Teilen wollt, gern hier hohladen. Aber bitte kein unnütiger Spam!</p>
-                    <p>gegen DOS bin ich nicht gewappnet (;</p>
-                </article>
-
-                <!-- Artikel 4 -->
-                <article id="article_4" class="collumn">
-                    <span class="headline hl1">Kontakt </span>
-                    <span class="headline_1">für Beschwerden</span>
-                    <span class="headline hl6">Die Trauzeugen</span>
-                    <fieldset>inidviduum 1</fieldset>
-                    <fieldset>inidviduum 2</fieldset>
-                    <fieldset>inidviduum 3</fieldset>
-                </article>
-
-                <!-- Artikel 5 -->
-                <article id="article_5" class="collumn">
-                    <span class="headline hl1">Interner Bereich </span>
-					<a href="/view_docs">Dokumentationen und vieles Mehr</a>
-				<!--
-					<a id="doc_link">Dokumentationen</a>
-
-					<script>
-							const dom_a = document.getElementById("doc_link");
-							dom_a.href = window.location.hostname + ":8005/Hochzeit";
-							dom_a.target = "_blank";
-					</script>
-					-->
-                    <p>hier ist nur ein Lorem Ipsum text zu finden, sinst nix. Also asdfipunbasedpdofugnaspeufngjio i poi npounef weüifjseijefp  <em> sef 
-                         fes fseij esfse fnise
-                    </em> saöäjdnf  asfüi   ij oij oioi joij fpoiasjd f0´9tn piuqwerth ubsdafoiz h9werfb 0wehf0isef </p>
-                </article>
-            </div>
-        </section>
+<!--         <section id="page_information"> -->
+<!--             <div class="grid_container info_container"> -->
+<!-- Artikel 1 -->
+<!--                 <article class="collumn"> -->
+<!---->
+<!--                         <span class="headline hl1">Aktuelle Informationen</span> -->
+<!---->
+<!--                         <span class="headline hl6">WO?</span> -->
+<!--                         <p>was geht wo ab?</p> -->
+<!--                         <p>Wir haben uns die Location hier herausgesucht. Es ist dort schön.</p> -->
+<!--                         <p>Das ist der Link zu Google Maps...</p> -->
+<!---->
+<!--                     <iframe class="LocationMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20227.844989006386!2d12.605324099999999!3d50.673903100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7333a24a8cba9%3A0xdd1e666a6a537348!2sLappen%20Ausstellung!5e0!3m2!1sde!2sde!4v1725889781747!5m2!1sde!2sde"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+<!--                 </article> -->
+<!---->
+<!-- Artikel 2 -->
+<!--                 <article class="collumn"> -->
+<!--                     <span class="headline hl3">Geschenke</span> -->
+<!--                     <span class="headline hl6">Geld</span> -->
+<!--                     <p>Wir möchten nur euer Geld haben</p> -->
+<!--                 </article> -->
+<!---->
+<!-- Artikel 3 -->
+<!--                 <article class="collumn"> -->
+<!--                     <span class="headline hl5">Links</span> -->
+<!--                     <span class="headline hl6">Nextcloud</span> -->
+<!---->
+<!--                     <!-- <figure class="figure"> -->
+<!--                         <img class="media" src="http://i.giphy.com/4fDWVPMoSyhgc.gif" alt=""> -->
+<!-- </figure> -->
+<!---->
+<!--                     <p>Wenn ihr Bilder mit uns Teilen wollt, gern hier hohladen. Aber bitte kein unnütiger Spam!</p> -->
+<!--                     <p>gegen DOS bin ich nicht gewappnet (;</p> -->
+<!--                 </article> -->
+<!---->
+<!-- Artikel 4 -->
+<!--                 <article id="article_4" class="collumn"> -->
+<!--                     <span class="headline hl1">Kontakt </span> -->
+<!--                     <span class="headline_1">für Beschwerden</span> -->
+<!--                     <span class="headline hl6">Die Trauzeugen</span> -->
+<!--                     <fieldset>inidviduum 1</fieldset> -->
+<!--                     <fieldset>inidviduum 2</fieldset> -->
+<!--                     <fieldset>inidviduum 3</fieldset> -->
+<!--                 </article> -->
+<!---->
+<!-- Artikel 5 -->
+<!--                 <article id="article_5" class="collumn"> -->
+<!--                     <span class="headline hl1">Interner Bereich </span> -->
+<!-- 					<a href="/view_docs">Dokumentationen und vieles Mehr</a> -->
+<!-- 				<!-- -->
+<!-- 					<a id="doc_link">Dokumentationen</a> -->
+<!---->
+<!-- 					<script> -->
+<!-- 							const dom_a = document.getElementById("doc_link"); -->
+<!-- 							dom_a.href = window.location.hostname + ":8005/Hochzeit"; -->
+<!-- 							dom_a.target = "_blank"; -->
+<!-- 					</script> -->
+<!--                     <p>hier ist nur ein Lorem Ipsum text zu finden, sinst nix. Also asdfipunbasedpdofugnaspeufngjio i poi npounef weüifjseijefp  <em> sef  -->
+<!--                          fes fseij esfse fnise -->
+<!--                     </em> saöäjdnf  asfüi   ij oij oioi joij fpoiasjd f0´9tn piuqwerth ubsdafoiz h9werfb 0wehf0isef </p> -->
+<!--                 </article> -->
+<!--             </div> -->
+<!--         </section> -->
 
 
     <!-- ContDown -->
-        <section id="page_count">
-            <div class="grid_container">
-            <articel class="title">Countdown bis zur Hochzeit:</articel>
-            <article id="countdown"></article>
-            </div>
-        </section>
+    <section id="page_count">
+      <div class="grid_container">
+        <articel class="title">Countdown bis zur Hochzeit:</articel>
+        <article id="countdown"></article>
+      </div>
+    </section>
 
-        <script src="js/script.js"></script>
-    </body>
+    <script src="js/script.js"></script>
+  </body>
 </html>

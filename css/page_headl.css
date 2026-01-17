@@ -1,31 +1,50 @@
 #page_headline {
     height: 100vh;
     width: 100vw;
+    position: relative;
+    display: block;
     text-align: center;
 	justify-content: center;
-    background-color: var(--back-color1);
+  background-color: var(--back-color1);
 }
 
 header {
 	display: flex;
 	flex: 1;
+  z-index:10;
 	align-items: center;
 	justify-content: center;
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-size:6vw;
-    text-transform: uppercase;
-    width:100%;
-    top:40%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size:12vw;
+  text-transform: uppercase;
+  width:100%;
+  top:40%;
+  gap: 20px;
+  height: 30%;
 }
 
-.heart {
-    width: 200px; /* Breite des Herzens */
-    height: 200px; /* Höhe des Herzens */
-    background-image: url('../images/RomantischeBild.jpeg'); /* Hier den Pfad zu deinem Bild einsetzen */
-    background-size: cover; /* Bild deckt das Herz vollständig ab */
-    background-position: center; /* Bild zentrieren */
-    stroke: var(--primary-color);
-    overflow: hidden;
-    fill: none;
+.headline_wrapper{
+  position: relative;
+  height:30%;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  overflow: hidden;
+  background-image: url('../images/RomantischeBild.jpeg');
+  background-size: cover;
+
+/* Die Maske einbinden */
+  -webkit-mask-image: url('../images/heart.svg');
+  mask-image: url('../images/heart.svg');
+-webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  -webkit-mask-size: 200px; /* Größe deiner Stanzform */
+  mask-size: 200px;
 }
+
+

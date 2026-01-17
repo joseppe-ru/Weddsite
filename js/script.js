@@ -117,3 +117,42 @@ container.addEventListener('scroll', () => {
     }
 });
 
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    // this.classList.toggle("active_accordion");
+    console.log("event");
+    if (this.classList.contains("active_accordion")){
+      return;
+    }
+    console.log("toggeling");
+
+    for (var j=0;j<acc.length;j++){
+      if (acc[j]==this){
+        acc[j].classList.add("active_accordion")
+        // acc[j].nextElementSibling.style.height ="auto";
+      }
+      else{
+        acc[j].classList.remove("active_accordion")
+        // acc[j].nextElementSibling.style.height ="0px";
+      }
+    }
+
+    /* Toggle between hiding and showing the active panel */
+    // var panel = this.nextElementSibling;
+    // if (panel.style.display === "block") {
+    //   panel.style.display = "none";
+    // } else {
+    //   panel.style.display = "block";
+    // }
+  });
+}
+
+console.log("Toggle first accordeon...");
+acc[0].classList.add("active_accordion");
+acc[0].nextElementSibling.style.display = "block";

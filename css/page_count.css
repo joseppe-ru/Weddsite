@@ -9,7 +9,7 @@
 }
 
 #page_count{
-    background-color: #CBE7FF;
+    background-color: var(--back-color2);
 }
 
 .title{
