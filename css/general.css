@@ -1,8 +1,33 @@
+:root {
+    /* Light Mode */
+    --back-color1: #FFF1E6;
+    --back-color2: yellow;
+    --primary-color: blue;
+    --secondary-color: blue;
+    --tärtier-color: orange;
+    --primary-text-color: blue;
+    --secondary-text-color: blue;
+    --tärtier-text-color: orange;
+    
+
+    /* Dark Mode */
+    --dark-back-color1: white;
+    --dark-back-color2: black;
+    --dark-primary-color: blue;
+    --dark-secondary-color: blue;
+    --dark-tärtier-color: orange;
+    --dark-primary-text-color: blue;
+    --dark-secondary-text-color: blue;
+    --dark-tärtier-text-color: orange;
+}
+
+
 html{
-    overflow: hidden;
+    overflow: scroll;
     scroll-snap-type: y mandatory;
     scroll-padding-top: 0;
     margin:0;
+    scrollbar-width: none;
 }
 
 body{
@@ -19,12 +44,15 @@ section{
     align-items: center;
     height: 100dvh;
     width: 100dvw;
-    overflow-y:hidden;
+    overflow-y:scroll;
+    overflow-x:scroll;
+    scrollbar-width: none;
 }
 
 p{
     text-align: left;
 }
+
 
 /* Der Container ist die Klasse einer anzeigeseite */
 .grid_container{
@@ -34,15 +62,15 @@ p{
     position: relative;
     margin: 0;
     padding: 0;
-    animation-name: hoverout;
+    /* animation-name: hoverout;
     animation-iteration-count: 1;
     animation-duration: .7s;
     opacity: 0;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; */
     align-items: center;
     text-align: center;
     justify-items: center;
-
+    border: 5px black solid;
 }
 
 @keyframes hoverout {
@@ -51,7 +79,7 @@ p{
 }
 
 /* Elemente mit classe '.grid' verblassen und erscheinen, jenach, ob sie im Viewport sind oder nicht */
-.visible{
+/* .visible{
     animation-name: wake_up;
     animation-iteration-count: 1;
     animation-duration: .5s;
@@ -62,7 +90,7 @@ p{
 @keyframes wake_up{
     0% {opacity: 0;}
     100% {opacity: 100;}
-}
+} */
 
 
 .arrow_container{
@@ -77,8 +105,8 @@ p{
     left: calc(50% - 20px);
     transform: translateX(-50%);
     z-index: 100;
-    width: 40px;  /* Example width */
-    height: 40px; /* Example height */
+    width: 40px;  
+    height: 40px; 
 
     animation-duration: 5s;
     animation-iteration-count: infinite;

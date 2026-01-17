@@ -11,7 +11,7 @@
 
     <body>
 		<!-- Navigation Arrow Button -->
-		<div class="arrow_container">
+		<!-- <div class="arrow_container">
             <article id="arrow">
                 <svg id="svg_arrow_down1" width="100%" height="100%"  viewBox = "-50 -50  100 100"
                         xmlns="http://www.w3.org/2000/svg" version="1.0"
@@ -19,28 +19,61 @@
                 <path d="M 40 -35 L 0 35 L -40 -35" stroke="black" stroke-width="5" fill="none" />
                 </svg>
             </article>
-		</div>
+		</div> -->
 
         <!-- Überschrift  -->
         <section id="page_headline">
-            <!-- <div class="info_box"><span> Unsere Hochzeotseinladung </span><br><span>Herzlich Wilkommen</span></div> -->
-            <header>Hochzeitseinladung</header>
+            <header>Wir</header>
+
+            <svg width="100" class="heart" height="100" viewBox="0 0 32 29.6" preserveAspectRatio="xMidYMid meet"  xmlns="http://www.w3.org/2000/svg">
+                <path class="heartpath" d="M23.6,0c-2.4,0-4.6,1.1-6.1,2.9C15.1,1.1,12.9,0,10.5,0C6.4,0,3,3.4,3,7.5c0,3.9,3.6,7.6,11.6,13.5
+                l1,0.9l1-0.9C25.4,15.1,29,11.4,29,7.5C29,3.4,25.6,0,23.6,0z"/>
+            </svg>
+            <header>Heiraten</header>
         </section>
 
         <!-- Zeitungsinhalte -->
         <section class="page_welcome">
-            <div class="grid_container welcome_container">
+            <!-- <div class="grid_container welcome_container"> -->
+                <div class="wolcome_container_new">
 
-                <article class="welcome_instance greetings text_big">Begrüßung einen übelsten Text, bis wann geht der
+                <!-- <article class="welcome_instance greetings text_big">Begrüßung einen übelsten Text, bis wann geht der
                   ichapsfuosiaughfboiasubgf ues fsi0uhfasuhf 0aiweshf 0isau fiusae fisa oifug asoiaseue
                   oiefsheiuhaoiosaefhoisfoiu eouaeofie shfoishe hs fh sef ie087 8se </article>
                 <article class="welcome_instance portrait_she picture"> <img class="portrait" src="images/RomantischeBild.jpeg" alt=""><p>Elisabeth</p></article>
                 <article class="welcome_instance marry text">Heiraten</article>
                 <article class="welcome_instance about text">Dazu ist die Website</article>
                 <article class="welcome_instance portrait_he picture">  <img class="portrait" src="images/RomantischeBild.jpeg" alt=""><p>Josia</p></article>
-                <article class="welcome_instance else text text_big">Viel zu tun</article>
+                <article class="welcome_instance else text text_big">Viel zu tun</article> -->
 
-            </div>
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="slide-content">Folie1</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slide-content">Folie2</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slide-content">Folie3</div>
+                </div>
+
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                </div>
+
+
         </section>
 
 <!-- Infos und ander Inhalte -->
@@ -108,40 +141,7 @@
                 </article>
             </div>
         </section>
-<!-- Infos und ander Inhalte -->
-        <section id="page_info">
-            <div class="grid_container information_container">
-                <!-- Artikel 1 -->
-                <article class="index_card" id="initial_index_card" onclick="expandCard(this, 1)">
-                        
-    
-                        <p class="title">Aktuelle Informationen</p>
 
-                        <span class="headline hl6">WO? </span>
-                        <p>was geht wo ab?</p>
-                        <p>Wir haben uns die Location hier herausgesucht. Es ist dort schön.</p>
-                        <p>Das ist der Link zu Google Maps...</p>
-
-                    <iframe class="LocationMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20227.844989006386!2d12.605324099999999!3d50.673903100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7333a24a8cba9%3A0xdd1e666a6a537348!2sLappen%20Ausstellung!5e0!3m2!1sde!2sde!4v1725889781747!5m2!1sde!2sde"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                
-                </article>
-
-                <!-- Artikel 2 -->
-                <article class="index_card" onclick="expandCard(this, 2)">
-                    <p class="title">Geschenke</p>
-                </article>
-
-                <!-- Artikel 3 -->
-                <article class="index_card" onclick="expandCard(this, 3)">
-                    <p class="title">Links</p>
-                </article>
-
-                <!-- Artikel 4 -->
-                <article class="index_card" onclick="expandCard(this, 4)">
-                    <p class="title">Kontakte</p>
-                </article>
-                </div>
-            </section>
 
     <!-- ContDown -->
         <section id="page_count">

@@ -3,7 +3,7 @@
     width: 100vw;
     text-align: center;
 	justify-content: center;
-    background-color: #FFF1E6;
+    background-color: var(--back-color1);
 }
 
 header {
@@ -19,3 +19,13 @@ header {
     top:40%;
 }
 
+.heart {
+    width: 200px; /* Breite des Herzens */
+    height: 200px; /* Höhe des Herzens */
+    background-image: url('../images/RomantischeBild.jpeg'); /* Hier den Pfad zu deinem Bild einsetzen */
+    background-size: cover; /* Bild deckt das Herz vollständig ab */
+    background-position: center; /* Bild zentrieren */
+    stroke: var(--primary-color);
+    overflow: hidden;
+    fill: none;
+}

@@ -1,5 +1,5 @@
 #page_information{
-    background-color: #FFF1E6;
+    background-color: var(--back-color1);
 }
 .info_container{
     /* display: inline-table; */
@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     gap: 15px;
     padding: 15px; /* Etwas Innenabstand schadet nie */
-    border: 1px solid #c70000ab; /* Zur Visualisierung */
+    border: 1px solid #c70000ab; /* Zur Visualisierung todo: entfernen*/
 }
 
 @media (max-width: 768px) {

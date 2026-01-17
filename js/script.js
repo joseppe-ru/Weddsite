@@ -14,8 +14,8 @@ function is_in_viewport(element,iteration){ // retuns BOOLEAN
     
     return ret;
 }
-var elements_hover_in = document.querySelectorAll(".grid_container");
-console.log(elements_hover_in)
+//var elements_hover_in = document.querySelectorAll(".grid_container");
+//console.log(elements_hover_in)
 function callback_hover_in(){
     console.log("==>> Next Step")
     for(let i=0; i<elements_hover_in.length;i++){
@@ -31,8 +31,8 @@ function callback_hover_in(){
     }
 }
 
-window.addEventListener('scroll',callback_hover_in);
-window.addEventListener('load',callback_hover_in);
+//window.addEventListener('scroll',callback_hover_in);
+//window.addEventListener('load',callback_hover_in);
 
 // großer Countdown bis zum TagX+
 var Countdown_kachel = document.getElementById('countdown');
@@ -81,5 +81,39 @@ function expandCard(clickedCard, position) {
 }
 
 // Initiale Index-Card, damit immer mindestens eine Ausgeklappt ist
-first_index_card = document.getElementById("initial_index_card")
-expandCard(first_index_card,1)
+//first_index_card = document.getElementById("initial_index_card")
+//expandCard(first_index_card,1)
+
+
+
+//==========
+//SliedeShow
+//==========
+const container = document.querySelector(".slideshow-container");
+const dots = document.getElementsByClassName("dot");
+let autoScrollTimer;
+function currentSlide(n) {
+    const width = container.clientWidth;
+    // Scrollen zur Position: (Nummer - 1) * Breite
+    container.scrollTo({
+        left: width * (n - 1),
+        behavior: 'smooth'
+    });
+    resetTimer(); // Autoplay neu starten, wenn User klickt
+}
+container.addEventListener('scroll', () => {
+    const scrollPos = container.scrollLeft;
+    const width = container.clientWidth;
+    // Berechnen, welche Seite gerade sichtbar ist (0, 1, 2...)
+    const index = Math.round(scrollPos / width);
+
+    // Alle Punkte zurücksetzen
+    for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    // Richtigen Punkt aktiv setzen (falls vorhanden)
+    if (dots[index]) {
+        dots[index].className += " active";
+    }
+});
+
