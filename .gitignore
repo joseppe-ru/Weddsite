@@ -4,3 +4,4 @@ Planung.odt
 ..gitignore.un~
 .gitignore~
 node_modules
+dist

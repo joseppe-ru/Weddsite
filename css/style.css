@@ -15,8 +15,5 @@ Ich habe versucht, die graphische Darstllung der Wbsite etwas aufzuteilen
 /* Abschnitt 2: Informationen */
 @import url(page_infor.css);
 
-/* Abschnitt 3: Informationen */
-@import url(page_information.css);
-
 /* Countdown Timer */
 @import url(page_count.css);
