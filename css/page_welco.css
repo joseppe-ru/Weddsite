@@ -16,37 +16,29 @@
 SlindeShow
 ===============*/
 
-/* * {box-sizing:border-box} */
-
 /* Slideshow container */
 .slideshow-container {
     display: flex;
     overflow-x: auto;
-    scroll-snap-type: x mandatory; /* Einrasten wie beim Smartphone */
-  scroll-behavior: smooth;    /* Weiches Scrollen */
+    scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;   
 
   width: 100%;
-  height: 100%;              /* Höhe festlegen (anpassbar) */
+  height: 100%;             
 
-  scrollbar-width: none;      /* Firefox */
-  -ms-overflow-style: none;   /* IE */
+  scrollbar-width: none;      
+  -ms-overflow-style: none;   
 
-  /* position: relative;
-  margin: auto;
-      overflow: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-padding-top: 0;
-    scrollbar-width: none; */
-    /* border: 5px solid black; */
+
 }
 
 .slideshow-container::-webkit-scrollbar { 
-  display: none;              /* Chrome/Safari */
+  display: none;             
 }
 
-/* Hide the images by default */
+
 .mySlides {
-  display: flex;              /* WICHTIG: Nicht display: none! */
+  display: flex;              
   justify-content: center;
   align-items: center;
   width:100%;
@@ -62,7 +54,7 @@ SlindeShow
 }
 
 
-/* The dots/bullets/indicators */
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -78,7 +70,7 @@ SlindeShow
   background-color: var(--primary-color);
 }
 
-/* Fading animation */
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;

@@ -34,16 +34,8 @@ header {
   z-index: 20;
 
 
-  /* align-items: center; */
-  /* gap: 10px; */
-  /* display: flex; */
-  /* overflow: hidden; */
-  /* margin: 0 15% 0 15%; */
-  /* width: auto; */
-  /**/
-
   background-image: url('../images/RomantischeBild.jpeg');
-  background-size: cover;   /* Bild deckt den Bereich ab */
+  background-size: cover;  
   background-position: center;
   background-repeat: no-repeat;
   transform: scale(1.0);
@@ -62,7 +54,7 @@ header {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
   animation-timeline: scroll(root); 
-  /*animation-range: entry 0% cover 50%;*/
+
   animation-range-start: 0%; 
   animation-range-end: 30%;
 
@@ -70,14 +62,12 @@ header {
 
 @keyframes herz-bewegung{ 
   from {  
-    /*margin: 0 15% 0 15%; transform: scale(1.0); */
   top: 30vh;
   left: 25vw;
   height:30vh;
   width: 50vw;
   } 
   to {  
-    /* margin: 0; transform: scale(1.5); */
   top: 2vh;
   left: 2vw;
   height: 7vh;
