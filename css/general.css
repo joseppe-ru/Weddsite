@@ -57,45 +57,6 @@ p{
   /* max-width: 600px;  */
 }
 
-/* TRICK 1: Die "Kalligrafie"-Klasse (Romantisch & Geschwungen) */
-.kalligrafic {
-  font-family: 'Great Vibes', cursive;
-  font-size: 1.8em; /* Schreibschrift wirkt oft kleiner, daher größer machen */
-  color: #f4f1ea; /* Ein dunkler Goldton */
-  font-weight: normal;
-  line-height: 0.8; /* Damit es die Zeilenhöhe nicht sprengt */
-  padding: 0 5px; /* Etwas Luft links und rechts */
-}
-
-/* TRICK 2: Die "Elegant"-Klasse (Großbuchstaben & weiter Abstand) */
-.elegant {
-  font-family: 'Playfair Display', serif;
-  text-transform: uppercase; /* Erzwingt Großbuchstaben */
-  letter-spacing: 3px; /* Zieht die Buchstaben auseinander */
-  font-size: 0.9em;
-  font-weight: 700;
-  color: #1a1510;
-}
-
-/* TRICK 3: Der "Marker"-Effekt (Wie mit Textmarker, aber edel) */
-.highlight {
-  background: linear-gradient(120deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.4) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 40%; /* Markiert nur die unteren 40% des Wortes */
-  background-position: 0 88%; /* Positioniert den Strich unten */
-  font-style: italic;
-  padding: 0 2px;
-  color: #000;
-}
-
-/* TRICK 4: Das "Herzschlag"-Wort (Fett & Akzentfarbe) */
-.love_pop {
-  color: #7a3e3e; /* Ein sanftes Altrosa */
-  font-weight: bold;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-}
-
 
 .grid_container{
     height: 90vh;

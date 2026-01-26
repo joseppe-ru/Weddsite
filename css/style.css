@@ -17,3 +17,6 @@ Ich habe versucht, die graphische Darstllung der Wbsite etwas aufzuteilen
 
 /* Countdown Timer */
 @import url(page_count.css);
+
+/* Text Styling*/
+@import url(text.css);

@@ -1,0 +1,63 @@
+.kalligrafic {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.8em; /* Schreibschrift wirkt oft kleiner, daher größer machen */
+  color: #f4f1ea; /* Ein dunkler Goldton */
+  font-weight: normal;
+  line-height: 0.8; /* Damit es die Zeilenhöhe nicht sprengt */
+  padding: 0 5px; /* Etwas Luft links und rechts */
+}
+.elegant {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase; /* Erzwingt Großbuchstaben */
+  letter-spacing: 3px; /* Zieht die Buchstaben auseinander */
+  font-size: 0.9em;
+  font-weight: 700;
+  color: #1a1510;
+}
+
+.highlight {
+  background: linear-gradient(120deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.4) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 40%; /* Markiert nur die unteren 40% des Wortes */
+  background-position: 0 88%; /* Positioniert den Strich unten */
+  font-style: italic;
+  padding: 0 2px;
+  color: #000;
+}
+
+.love_pop {
+  color: #7a3e3e; /* Ein sanftes Altrosa */
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+.headline.hl6{
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.hl6:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.hl6:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+.hl1{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 0 5px 0;
+}
+
