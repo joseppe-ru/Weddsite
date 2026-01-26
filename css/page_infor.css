@@ -157,92 +157,98 @@
     padding: 5px 0 5px 0;
 }
 
-/* .collumn .headline.hl2{ */
-/*     font-weight: 400; */
-/*     font-style: italic; */
-/*     font-size: 24px; */
-/*     padding: 10px 0 10px 0; */
-/*     box-sizing: border-box; */
-/* } */
-/**/
-/* .collumn .headline.hl2:before{ */
-/*     border-top: 1px solid #2f2f2f; */
-/*     content: ''; */
-/*     margin: 0 auto; */
-/*     width: 100px; */
-/*     height: 7px; */
-/*     display: block; */
-/* } */
-/* .collumn .headline.hl2:after{ */
-/*     border-bottom: 1px solid #2f2f2f; */
-/*     content: ''; */
-/*     margin: 0 auto; */
-/*     width: 100px; */
-/*     height: 13px; */
-/*     display: block; */
-/* } */
-/**/
-/* .collumn .headline.hl3{ */
-/*     font-weight: 400; */
-/*     font-style: italic; */
-/*     font-size: 36px; */
-/*     box-sizing: border-box; */
-/*     padding: 10px 0 10px 0; */
-/* } */
-/* .collumn .headline.hl4{ */
-/*     font-weight: 700; */
-/*     font-size: 12px; */
-/*     box-sizing: border-box; */
-/*     padding: 10px 0 10px 0; */
-/* } */
-/* .collumn .headline.hl4:before{ */
-/*     border-top: 1px solid #2f2f2f; */
-/*     content: ''; */
-/*     width: 100px; */
-/*     height: 7px; */
-/*     display: block; */
-/*     margin: 0 auto; */
-/* } */
-/* .collumn .headline.hl4:after{ */
-/*     border-bottom: 1px solid #2f2f2f; */
-/*     content: ''; */
-/*     width: 100px; */
-/*     height: 10px; */
-/*     display: block; */
-/*     margin: 0 auto; */
-/**/
-/* } */
-/* .collumn .headline.hl5{ */
-/*     font-weight: 400; */
-/*     font-size: 42px; */
-/*     text-transform: uppercase; */
-/*     font-style: italic; */
-/*     box-sizing: border-box; */
-/*     padding: 10px 0 10px 0; */
-/* } */
-/* .collumn .headline.hl6{ */
-/*     font-weight: 400; */
-/*     font-size: 18px; */
-/*     box-sizing: border-box; */
-/*     padding: 10px 0 10px 0; */
-/* } */
-/* .collumn .headline.hl6:before{ */
-/*     border-top: 1px solid #2f2f2f; */
-/*     content: ''; */
-/*     width: 100px; */
-/*     height: 7px; */
-/*     display: block; */
-/*     margin: 0 auto; */
-/* } */
-/* .collumn .headline.hl6:after{ */
-/*     border-bottom: 1px solid #2f2f2f; */
-/*     content: ''; */
-/*     width: 100px; */
-/*     height: 10px; */
-/*     display: block; */
-/*     margin: 0 auto; */
-/**/
-/* } */
+.collumn .headline.hl2{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+
+.collumn .headline.hl2:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    margin: 0 auto;
+    width: 100px;
+    height: 7px;
+    display: block;
+}
+.collumn .headline.hl2:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    margin: 0 auto;
+    width: 100px;
+    height: 13px;
+    display: block;
+}
+
+.collumn .headline.hl3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl4{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl4:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl4:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+.collumn .headline.hl5{
+    font-weight: 400;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-style: italic;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl6{
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl6:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl6:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+.headline.hl1{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 0 5px 0;
+}
 
 
 /* Animationen für die Spalten */
