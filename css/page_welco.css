@@ -40,7 +40,6 @@ SlindeShow
 .mySlides {
   display: flex;              
   justify-content: center;
-  align-items: center;
   width:100%;
 
   
@@ -51,6 +50,14 @@ SlindeShow
   background-color: #f4f4f4;  
   box-sizing: border-box;
   border: 1px solid #ddd;
+  background-color: var(--back-color1);
+    /* filter:blur(4px); */
+    /* -o-filter:blur(4px); */
+    /* -ms-filter:blur(4px); */
+    /* -moz-filter:blur(4px); */
+    /* -webkit-filter:blur(4px); */
+    /**/
+
 }
 
 
@@ -80,3 +87,5 @@ SlindeShow
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
