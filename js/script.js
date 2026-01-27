@@ -104,3 +104,11 @@ for (i = 0; i < acc.length; i++) {
 console.log("Toggle first accordeon...");
 acc[0].classList.add("active_accordion");
 acc[0].nextElementSibling.style.display = "block";
+
+
+
+/* Text für eine Überschrift der Seite*/
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+  document.body.style.setProperty('--scroll', scrolled);
+});

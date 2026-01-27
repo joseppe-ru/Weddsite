@@ -19,6 +19,7 @@
     --dark-primary-text-color: blue;
     --dark-secondary-text-color: blue;
     --dark-tärtier-text-color: orange;
+    --scroll-height: 100vh;
 }
 
 
@@ -50,11 +51,13 @@ section{
 }
 
 p{
-  padding: 5%;  font-family: 'Montserrat', sans-serif;
+  padding: 2vh;  
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
   line-height: 1.6;
   color: #2b221a;
   /* max-width: 600px;  */
+  margin: 0;
 }
 
 
