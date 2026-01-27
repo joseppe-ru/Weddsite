@@ -1,7 +1,7 @@
 .kalligrafic {
   font-family: 'Great Vibes', cursive;
   font-size: 1.8em; /* Schreibschrift wirkt oft kleiner, daher größer machen */
-  color: #f4f1ea; /* Ein dunkler Goldton */
+  color: var(--tärtiär-color); /* Ein dunkler Goldton */
   font-weight: normal;
   line-height: 0.8; /* Damit es die Zeilenhöhe nicht sprengt */
   padding: 0 5px; /* Etwas Luft links und rechts */

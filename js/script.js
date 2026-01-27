@@ -2,15 +2,39 @@
 var Countdown_kachel = document.getElementById('countdown');
 
 function set_timer(){
-    var datetime = new Date;
+const datetime = new Date(); // Aktuelle Zeit
     const marry_date = new Date('March 28, 2026 13:00:00');
-    var date_till = new Date(marry_date - datetime);
-    let h = date_till.getHours();
-    let m = date_till.getMinutes();
-    let s = date_till.getSeconds();
-    let d = date_till.getUTCDay();
-    let ms = date_till.getMonth();
-    Countdown_kachel.innerHTML = ('0'+ ms).slice(-2) + ' Monate, ' + ('0'+d).slice(-2) + ' Tage, '+ ('0'+h).slice(-2) + ' : ' +('0'+ m).slice(-2) + ' : ' + ('0'+s).slice(-2) ;
+    
+    // Die Differenz in Millisekunden
+    const diff = marry_date - datetime;
+
+    if (diff <= 0) {
+        Countdown_kachel.innerHTML = "00 tage | 00 : 00 : 00";
+        return;
+    }
+
+    // Umrechnung der Millisekunden
+    // 1 Tag = 24h * 60m * 60s * 1000ms = 86.400.000 ms
+    let d = Math.floor(diff / (1000 * 60 * 60 * 24));
+    
+    // Der Restwert nach den Tagen sind die Stunden
+    let h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    
+    // Der Restwert nach den Stunden sind die Minuten
+    let m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    
+    // Der Restwert nach den Minuten sind die Sekunden
+    let s = Math.floor((diff % (1000 * 60)) / 1000);
+
+    // Formatierung und Anzeige
+    // Wir nutzen d.toString().padStart(2, '0'), das ist moderner als .slice()
+    let tageDisplay = d < 10 ? '0' + d : d; 
+    
+    Countdown_kachel.innerHTML = 
+        tageDisplay + ' t   ' + 
+        ('0' + h).slice(-2) + 'h  ' + 
+        ('0' + m).slice(-2) + 'm  ' + 
+        ('0' + s).slice(-2) + 's '
     setTimeout(set_timer,500);
 }
 set_timer();
