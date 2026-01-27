@@ -56,23 +56,69 @@ header {
   animation-timeline: scroll(root); 
 
   animation-range-start: 0%; 
-  animation-range-end: 30%;
+  animation-range-end: 50%;
 
 }
 
 @keyframes herz-bewegung{ 
-  from {  
+  0% {  
   top: 30vh;
   left: 25vw;
   height:30vh;
   width: 50vw;
   } 
-  to {  
-  top: 2vh;
-  left: 2vw;
-  height: 7vh;
+  50% {  
+  top: 0vh;
+  left: 15vw;
+  height:50vh;
+  width: 70vw;
+  } 
+  100% {  
+  top: 1vh;
+  left: 10vw;
+  height: 10vh;
   width: 7vh;
   } 
 }
 
 
+#slides_headl{
+  position: fixed;
+  top: 30vh;
+  left: 25vw;
+  height:30vh;
+  width: 50vw;
+  margin: 0;
+  z-index: 10;
+  background-color: white;
+  border-radius: 20px;
+
+  animation-name: slide_headl_animation;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-timeline: scroll(root); 
+
+  animation-range-start: 0%; 
+  animation-range-end: 50%;
+}
+
+@keyframes slide_headl_animation{ 
+  0% {  
+  top: 50vh;
+  left: 50vw;
+  height: 1vh;
+  width: 1vw;
+  } 
+  50% {  
+  top: 20vh;
+  left: 50vw;
+  height:1vh;
+  width: 1vw;
+  } 
+  100% {  
+  top: 2vh;
+  left: 10vw;
+  height: 8vh;
+  width: 80vw;
+  } 
+}

@@ -4,6 +4,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" >
     <title>Hochzeit</title>
 		<meta charset="UTF-8">
@@ -11,6 +12,7 @@
   </head>
 
   <body>
+      <article id="slides_headl"></article>
         <!-- Überschrift  -->
     <section id="page_headline">
       <header>Wir</header>
@@ -19,11 +21,29 @@
       <header>Heiraten</header>
     </section>
 
+        <!-- Hello -->
+    <section id="page_hello">
+      <div class="hello_container">
+        <div class="hello_placeholder"></div>
+        <div class="hello_placeholder"></div>
+        <div class="hello_placeholder"></div>
+        <div class="hello_placeholder"></div>
+        <p>Nicht mehr lang...</p>
+        <article id="countdown"></article>
+        <div class="hello_placeholder"></div>
+        <article id="about_website">
+          <p>
+            Du bist auf underer offiziellen <span class="highlight">Hochzeitswebsite</span> angekommen. <br> Hier findest du Informationen und Hinweise sowie alles dass du unbedingt wissen musst. 
+          </p>
+        </article>
+      </div>
+    </section>
+
     <!-- Zeitungsinhalte -->
     <section class="page_welcome">
       <!-- <div class="grid_container welcome_container"> -->
       <div class="wolcome_container_new">
-
+      <article class="hello_placeholder"></article>
         <!-- Slideshow container -->
         <div class="slideshow-container">
           <!-- Full-width images with number and caption text -->
@@ -40,7 +60,10 @@
           </div>
 
           <div class="mySlides fade">
-            <div class="slide-content">Folie2</div>
+            <div class="slide-content">
+            <i class="mdi mdi-pin"></i>
+            <i class="mdi mdi-tape-measure"></i>
+            </div>
           </div>
 
           <div class="mySlides fade">
@@ -64,6 +87,7 @@
     <!-- Infos und ander Inhalte -->
     <section id="page_info">
       <div class="info_container">
+        <div class="hello_placeholder_acc"></div>
         
         <!-- artikel 1 -->
         <summary class="accordion">
@@ -111,7 +135,7 @@
     <!-- ContDown -->
     <section id="page_count">
       <div class="grid_container">
-        <articel class="title">Countdown bis zur Hochzeit:</articel>
+        <articel class="title">Bis Dahin</articel>
         <article id="countdown"></article>
       </div>
     </section>

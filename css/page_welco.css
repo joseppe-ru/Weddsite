@@ -24,7 +24,7 @@ SlindeShow
   scroll-behavior: smooth;   
 
   width: 100%;
-  height: 100%;             
+  height: 80%;             
 
   scrollbar-width: none;      
   -ms-overflow-style: none;   
@@ -41,6 +41,8 @@ SlindeShow
   display: flex;              
   justify-content: center;
   width:100%;
+  border-radius: 10px;
+  gap: 10px;
 
   
   height: 100%;           
@@ -87,5 +89,7 @@ SlindeShow
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
 
 

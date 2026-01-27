@@ -1,11 +1,11 @@
 #countdown{
-    position:absolute;
+    position:relative;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
-    font-size: 4vw;
+    font-size: 5vw;
     text-transform: uppercase;
-    top: 50%;
-    width:100%;
+    height: auto;
+    text-align: center;
 }
 
 #page_count{
@@ -13,7 +13,7 @@
 }
 
 .title{
-    position:absolute;
+    position:relative;
     top: 15%;
     text-align: center;
 }

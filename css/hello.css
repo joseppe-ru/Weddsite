@@ -1,0 +1,29 @@
+.page_hello{
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+	justify-content: center;
+}
+
+.hello_container{
+    width: 95vw;
+    height: 85vh;
+  background-color: var(--back-color2);
+}
+
+
+
+
+.hello_placeholder{
+  height: 10%;
+  position: relative;
+}
+
+#about_website{
+  background-color: var(--back-color1);
+  border-radius: 5px; 
+  width:95%;
+}
+
+
+

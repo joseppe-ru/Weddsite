@@ -9,6 +9,13 @@
 
 }
 
+.hello_placeholder_acc{
+  height: 7%;
+  position: relative;
+}
+
+
+
 .accordion {
   z-index: 40;
   background-color: var(--secondary-color);
@@ -55,7 +62,7 @@
 }
 
 .active_accordion + .info_collumn{
-  height: 70%;
+  height: 65%;
 }
 
 .roll_symbol{

@@ -20,3 +20,6 @@ Ich habe versucht, die graphische Darstllung der Wbsite etwas aufzuteilen
 
 /* Text Styling*/
 @import url(text.css);
+
+/* Hello Page*/
+@import url(hello.css);
