@@ -1,7 +1,7 @@
 .kalligrafic {
   font-family: 'Great Vibes', cursive;
   font-size: 1.8em; /* Schreibschrift wirkt oft kleiner, daher größer machen */
-  color: var(--tärtiär-color); /* Ein dunkler Goldton */
+  /* color: var(--secondary-color); /* Ein dunkler Goldton */ */
   font-weight: normal;
   line-height: 0.8; /* Damit es die Zeilenhöhe nicht sprengt */
   padding: 0 5px; /* Etwas Luft links und rechts */
@@ -12,7 +12,7 @@
   letter-spacing: 3px; /* Zieht die Buchstaben auseinander */
   font-size: 0.9em;
   font-weight: 700;
-  color: #1a1510;
+  /* color: var(--secondary-color); */
 }
 
 .highlight {
@@ -22,11 +22,11 @@
   background-position: 0 88%; /* Positioniert den Strich unten */
   font-style: italic;
   padding: 0 2px;
-  color: #000;
+  /* color: var(--secondary-color); */
 }
 
 .love_pop {
-  color: #7a3e3e; /* Ein sanftes Altrosa */
+  /* color: #7a3e3e; /* Ein sanftes Altrosa */ */
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -61,6 +61,8 @@
     /* padding: 5px 0 5px 0; */
 }
 
+
+
 #slides_headl_text{
   margin-left: 15vw;
   padding:0;
@@ -69,6 +71,7 @@
   align-items: center;
   display: flex;
   text-align: left;
+  color: var(--text-color2);
 }
 
 .slides_headl_container{
@@ -98,7 +101,8 @@
   /* width: 80vw; */
   margin: 0;
   z-index: 10;
-  background-color: white;
+  background-color: var(--color2);
+  /* color: var(--secondary-text-color); */
   border-radius: 20px;
 
   animation-name: slide_headl_animation;

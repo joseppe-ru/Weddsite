@@ -5,7 +5,7 @@
     display: block;
     text-align: center;
 	justify-content: center;
-  background-color: var(--back-color1);
+  background-color: var(--color1);
 }
 
 header {
@@ -24,16 +24,41 @@ header {
   height: 30%;
 }
 
-.headline_wrapper{
+.unique{
+  padding: 0;  
+  font-family: 'Playfair Display', serif;
+  font-size: 100%;
+  line-height: 100%;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-color1);
+}
+
+.heart_wrapper{
   position: fixed;
-  top: 30vh;
-  left: 25vw;
-  height:30vh;
-  width: 50vw;
+  /* top: 30vh; */
+  /* left: 25vw; */
+  /* height:30vh; */
+  /* width: 50vw; */
   margin: 0;
   z-index: 20;
 
 
+
+  animation-name: herz-bewegung;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-timeline: scroll(root); 
+
+  animation-range-start: 0%; 
+  animation-range-end: 50%;
+  filter: drop-shadow(0vw 0vh 15px var(--color2));
+}
+
+.heart_cut{
+  z-index: 20;
+  height: 100%;
+  width:100%;
   background-image: url('../images/RomantischeBild.jpeg');
   background-size: cover;  
   background-position: center;
@@ -50,14 +75,6 @@ header {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
 
-  animation-name: herz-bewegung;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  animation-timeline: scroll(root); 
-
-  animation-range-start: 0%; 
-  animation-range-end: 50%;
-
 }
 
 @keyframes herz-bewegung{ 
@@ -72,12 +89,10 @@ header {
   left: 15vw;
   height:50vh;
   width: 70vw;
+  filter: drop-shadow(0vw 0vh 15px var(--color2));
   } 
   100% {  
-  /* top: 1vh; */
-  /* left: 1vw; */
-  /* height: 10vh; */
-  /* width: 22vw; */
+ filter: drop-shadow(0vw 0vh 15px var(--color1));
   top: 2vh;
   left: 5vw;
   height: 8vh;

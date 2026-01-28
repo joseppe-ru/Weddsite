@@ -4,6 +4,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,700;1,900;1,400&family=Pinyon+Script&family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" >
     <title>Hochzeit</title>
@@ -21,12 +22,16 @@
         <p id="slides_headl_text">noch ein Countdown</p>
       </div>
     </article>
-        <!-- Überschrift  -->
+    <div class ="heart_wrapper">
+      <article class="heart_cut"></article>
+    </div>
+    
+    <!-- Überschrift  -->
     <section id="page_headline">
-      <header>Wir</header>
-      <article class="headline_wrapper"></article>
+      <header><p class="unique">Wir</p></header>
+      
       <header></header>
-      <header>Heiraten</header>
+      <header><p class="unique">Heiraten</p></header>
     </section>
 
         <!-- Hello -->
@@ -36,7 +41,7 @@
         <div class="hello_placeholder"></div>
         <div class="hello_placeholder"></div>
         <div class="hello_placeholder"></div>
-              <p>
+              <p id="hello_text">
                 Wir sagen: <span class="kalligrafic">Ja!</span>, in ... </p>
         <article id="countdown"></article>
         <div class="hello_placeholder"></div>
@@ -68,8 +73,10 @@
                 08134 Wildenfels
               </p>
 
-        <div class="hello_placeholder"></div>
-            <iframe class="LocationMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20227.844989006386!2d12.605324099999999!3d50.673903100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7333a24a8cba9%3A0xdd1e666a6a537348!2sLappen%20Ausstellung!5e0!3m2!1sde!2sde!4v1725889781747!5m2!1sde!2sde"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="hello_placeholder"></div>
+              <div id="map_wrap">
+                <iframe class="LocationMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20227.844989006386!2d12.605324099999999!3d50.673903100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7333a24a8cba9%3A0xdd1e666a6a537348!2sLappen%20Ausstellung!5e0!3m2!1sde!2sde!4v1725889781747!5m2!1sde!2sde"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             </div>
           </div>
 
@@ -77,7 +84,7 @@
             <div class="slide-content">
               <br>
               <p><span class="hl6">Party</span></p>
-            <i class="mdi mdi-pin"></i>
+            <i class="mdi mdi-arrow-collapse-down"></i>
             <i class="mdi mdi-tape-measure"></i>
             </div>
           </div>
@@ -95,9 +102,9 @@
         
         <!-- The dots/circles -->
         <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" ></span>
+          <span class="dot"></span>
+          <span class="dot" ></span>
         </div>
       </div>
 
@@ -112,7 +119,8 @@
         <!-- artikel 1 -->
         <summary class="accordion">
           <span class="headline hl1">Aktuelle Informationen</span>
-          <span class="roll_indicator"><a class="roll_symbol">&#8634;</a></span>
+          <span class="roll_indicator"><a class="roll_symbol"><i class="mdi mdi-arrow-collapse-down"></i></a></span>
+            
         </summary>
                 
         <article class="info_collumn">
@@ -122,7 +130,7 @@
         <!-- Artikel 2 -->
         <summary class="accordion">
           <span class="headline hl1">Links</span>
-          <span class="roll_indicator"><a class="roll_symbol">&#8634;</a></span>
+          <span class="roll_indicator"><a class="roll_symbol"><i class="mdi mdi-arrow-collapse-down"></i></a></span>
         </summary>
         
         <article class="info_collumn">
@@ -132,7 +140,7 @@
         <!-- Artikel 3 -->
         <summary class="accordion">
           <span class="headline hl1">Anreise</span>
-          <span class="roll_indicator"><a class="roll_symbol">&#8634;</a></span>
+          <span class="roll_indicator"><a class="roll_symbol"><i class="mdi mdi-arrow-collapse-down"></i></a></span>
         </summary>
 
         <articel class="info_collumn">
@@ -142,7 +150,7 @@
         <!-- Artikel 4 -->
         <summary class="accordion">
           <span class="headline hl1">Geschenk</span>
-          <span class="roll_indicator"><a class="roll_symbol">&#8634;</a></span>
+          <span class="roll_indicator"><a class="roll_symbol"><i class="mdi mdi-arrow-collapse-down"></i></a></span>
         </summary>
 
         <article class="info_collumn">

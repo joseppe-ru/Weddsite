@@ -1,25 +1,26 @@
 :root {
-    /* Light Mode */
-    --back-color1: #baaa96;
-    --back-color2: #CBE7FF;
-    --primary-color: #426a5ac9;
-    --secondary-color: #7fb685bd;
-    --tärtier-color: orange;
-    --primary-text-color: #dda1c6cc;
-    --secondary-text-color: #6c4b5ebb;
-    --tärtier-text-color: orange;
-    
+/* LIGHT MODE (Standard) */
+    --back-color: #f5f0e6;          /* Sanftes Pastell-Beige */
+    --back-text-color: #4a3f35;     /* Dunkles Kaffeebraun für guten Kontrast auf Beige */
 
-    /* Dark Mode */
-    --dark-back-color1: white;
-    --dark-back-color2: black;
-    --dark-primary-color: blue;
-    --dark-secondary-color: blue;
-    --dark-tärtier-color: orange;
-    --dark-primary-text-color: blue;
-    --dark-secondary-text-color: blue;
-    --dark-tärtier-text-color: orange;
-    --scroll-height: 100vh;
+    --color1: #d6eaff;              /* Pastell-Hellblau */
+    --text-color1: #2a445e;         /* Tiefes Marineblau */
+
+    --color2: #e2f0d9;    /* Pastell-Hellgrün */
+    --text-color2: #3d5236;         /* Dunkles Waldgrün */
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+/* DARK MODE */
+        --back-color: #1c1b17;          /* Sehr dunkles, warmes Anthrazit (statt Schwarz) */
+        --back-text-color: #e0dcd3;     /* Off-White/Creme für entspanntes Lesen */
+
+        --color1: #2c3e50;              /* Gedämpftes Nachtblau */
+        --text-color1: #d6eaff;         /* Das Hellblau von oben als Textfarbe */
+
+        --color2: #2d3829;    /* Dunkles Moosgrün */
+        --text-color2: #e2f0d9;         /* Das Hellgrün von oben als Textfarbe */
+    }
 }
 
 
@@ -59,6 +60,7 @@ p{
   font-weight: 500;
   /* max-width: 600px;  */
   margin: 0;
+  color: var(--text-color1);
 }
 
 

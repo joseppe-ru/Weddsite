@@ -6,10 +6,11 @@
     text-transform: lowercase;
     height: auto;
     text-align: center;
+    color: var(--back-text-color)
 }
 
 #page_count{
-    background-color: var(--back-color2);
+    background-color: var(--back-color);
 }
 
 .title{

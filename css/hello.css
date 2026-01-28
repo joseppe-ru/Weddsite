@@ -4,16 +4,15 @@
   text-align: center;
 	justify-content: center;
 
-  background-color: var(--back-color2);
+  background-color: var(--back-color);
 }
 
 .hello_container{
     width: 95vw;
     height: 85vh;
+    display: flex;
+    flex-direction: column;
 }
-
-
-
 
 .hello_placeholder{
   height: 10%;
@@ -21,10 +20,13 @@
 }
 
 #about_website{
-  background-color: var(--back-color1);
+  background-color: var(--color1);
   border-radius: 5px; 
-  width:95%;
+  width:auto;
 }
 
+#hello_text{
+  color: var(--back-text-color);
+}
 
 

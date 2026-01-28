@@ -96,8 +96,11 @@ slide_container.addEventListener('scroll', () => {
 slide_container.addEventListener('click', ()=> resetTimer(100));
 slide_container.addEventListener('touchstart', ()=> resetTimer(100));
 
-for (i = 0; i < dots.length; i++) {
-  dots[i].addEventListener("click",()=> resetTimer(100));
+for (let i = 0; i < dots.length; i++) {
+  dots[i].addEventListener("click",()=> {
+    resetTimer(100);
+    currentSlide(i+1);
+  });
 }
 
 
