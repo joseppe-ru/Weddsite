@@ -58,6 +58,8 @@
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
+    align-items: center;
+    /* justify-content: center; */
     /* padding: 5px 0 5px 0; */
 }
 

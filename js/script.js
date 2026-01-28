@@ -1,5 +1,6 @@
 
-var Countdown_kachel = document.getElementById('countdown');
+//var Countdown_kachel = document.getElementById('countdown');
+var Countdown_kachel = document.getElementsByClassName('countdown');
 
 function set_timer(){
 const datetime = new Date(); // Aktuelle Zeit
@@ -9,8 +10,10 @@ const datetime = new Date(); // Aktuelle Zeit
     const diff = marry_date - datetime;
 
     if (diff <= 0) {
-        Countdown_kachel.innerHTML = "00 tage | 00 : 00 : 00";
+      for (let i=0;i<Countdown_kachel.length;i++){
+        Countdown_kachel[i].innerHTML = "00 : 00 : 00";
         return;
+      }
     }
 
     // Umrechnung der Millisekunden
@@ -30,11 +33,14 @@ const datetime = new Date(); // Aktuelle Zeit
     // Wir nutzen d.toString().padStart(2, '0'), das ist moderner als .slice()
     let tageDisplay = d < 10 ? '0' + d : d; 
     
-    Countdown_kachel.innerHTML = 
-        tageDisplay + ' t   ' + 
+
+    for (let i=0;i<Countdown_kachel.length;i++){
+      Countdown_kachel[i].innerHTML = 
+        tageDisplay + 't   ' + 
         ('0' + h).slice(-2) + 'h  ' + 
         ('0' + m).slice(-2) + 'm  ' + 
-        ('0' + s).slice(-2) + 's '
+        ('0' + s).slice(-2) + 's ';
+    }
     setTimeout(set_timer,500);
 }
 set_timer();

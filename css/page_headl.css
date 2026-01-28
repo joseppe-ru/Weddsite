@@ -92,7 +92,7 @@ header {
   filter: drop-shadow(0vw 0vh 15px var(--color2));
   } 
   100% {  
- filter: drop-shadow(0vw 0vh 15px var(--color1));
+ filter: drop-shadow(0vw 0vh 15px var(--color2));
   top: 2vh;
   left: 5vw;
   height: 8vh;
