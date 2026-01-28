@@ -1,7 +1,6 @@
 .kalligrafic {
   font-family: 'Great Vibes', cursive;
   font-size: 1.8em; /* Schreibschrift wirkt oft kleiner, daher größer machen */
-  /* color: var(--secondary-color); /* Ein dunkler Goldton */ */
   font-weight: normal;
   line-height: 0.8; /* Damit es die Zeilenhöhe nicht sprengt */
   padding: 0 5px; /* Etwas Luft links und rechts */
@@ -26,7 +25,6 @@
 }
 
 .love_pop {
-  /* color: #7a3e3e; /* Ein sanftes Altrosa */ */
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   font-style: italic;
