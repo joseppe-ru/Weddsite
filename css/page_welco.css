@@ -55,14 +55,7 @@ SlindeShow
   box-sizing: border-box;
   border: 1px solid #ddd;
   background-color: var(--color1);
-    /* filter:blur(4px); */
-    /* -o-filter:blur(4px); */
-    /* -ms-filter:blur(4px); */
-    /* -moz-filter:blur(4px); */
-    /* -webkit-filter:blur(4px); */
-    /**/
   overflow-y: scroll;
-
 }
 
 .big_symbol{
@@ -112,18 +105,4 @@ SlindeShow
 
 }
 
-.parken_container{
-  height: 50%;
-  /* width: 90%; */
-  background-image: url("../images/parken.png");
-  background-size:cover;
-}
-#parken_bild{
-  background-image: url("../images/parken.png");
-  /* size: cover;   */
-  /* background-size: cover;   */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* transform: scale(1.0); */
-}
 

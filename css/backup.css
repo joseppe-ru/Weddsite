@@ -1,4 +1,3 @@
-/* Der Komplette Inhalt */
 html{
 
   
@@ -13,7 +12,6 @@ body{
     
 }
 
-/* Überschrift, InfoBox, Platzhalter */
 #Paper_Header{
 
 
@@ -57,11 +55,9 @@ header{
     }
 }
 
-/* Artikel, Zeitungsinhalte */
 #welcome_article{
     font-family:'Courier New', Courier, monospace;
     font-size: large;
-    /* border: 4px solid black; */
     padding: 0 2% 0 2%;
 }
 

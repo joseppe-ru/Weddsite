@@ -3,6 +3,9 @@ Ich habe versucht, die graphische Darstllung der Wbsite etwas aufzuteilen
 1. Aufteilung nach Segmenten / Seiten top to down und relativ selbserklärend
 2. Hirachschich, HTML tags, wenn ich die um Syle, dann ist das im genral.css zu finden */
 
+/* Text Styling*/
+@import url(text.css);
+
 /* allgemein */
 @import url(general.css);
 
@@ -17,9 +20,6 @@ Ich habe versucht, die graphische Darstllung der Wbsite etwas aufzuteilen
 
 /* Countdown Timer */
 @import url(page_count.css);
-
-/* Text Styling*/
-@import url(text.css);
 
 /* Hello Page*/
 @import url(hello.css);

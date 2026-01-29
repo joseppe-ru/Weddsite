@@ -1,54 +1,48 @@
 :root {
-/* LIGHT MODE (Standard) */
-    --back-color: #f5f0e6;          /* Sanftes Pastell-Beige */
-    --back-text-color: #4a3f35;     /* Dunkles Kaffeebraun für guten Kontrast auf Beige */
-
-    --color1: #d6eaff;              /* Pastell-Hellblau */
-    --text-color1: #2a445e;         /* Tiefes Marineblau */
-
-    --color2: #e2f0d9;    /* Pastell-Hellgrün */
-    --text-color2: #3d5236;         /* Dunkles Waldgrün */
+  --back-color: #f5f0e6;
+  --back-text-color: #4a3f35;
+  --color1: #d6eaff;
+  --text-color1: #2a445e;
+  --color2: #e2f0d9;
+  --text-color2: #3d5236;
 }
+
 @media (prefers-color-scheme: dark) {
-    :root {
-/* DARK MODE */
-        --back-color: #1c1b17;          /* Sehr dunkles, warmes Anthrazit (statt Schwarz) */
-        --back-text-color: #e0dcd3;     /* Off-White/Creme für entspanntes Lesen */
-
-        --color1: #2c3e50;              /* Gedämpftes Nachtblau */
-        --text-color1: #d6eaff;         /* Das Hellblau von oben als Textfarbe */
-
-        --color2: #2d3829;    /* Dunkles Moosgrün */
-        --text-color2: #e2f0d9;         /* Das Hellgrün von oben als Textfarbe */
-    }
+  :root {
+    --back-color: #1c1b17;
+    --back-text-color: #e0dcd3;
+    --color1: #2c3e50;
+    --text-color1: #d6eaff;
+    --color2: #2d3829;
+    --text-color2: #e2f0d9;
+  }
 }
 
 
 html{
-    overflow: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-padding-top: 0;
-    margin:0;
-    scrollbar-width: none;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 0;
+  margin:0;
+  scrollbar-width: none;
 }
 
 body{
-    margin:0;
+  margin:0;
 }
 
 section{
-    scroll-snap-align: start;
-    position:relative;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-    height: 100dvh;
-    width: 100dvw;
-    overflow-y:scroll;
-    overflow-x:scroll;
-    scrollbar-width: none;
+  scroll-snap-align: start;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100dvw;
+  overflow-y:scroll;
+  overflow-x:scroll;
+  scrollbar-width: none;
 }
 
 p{
@@ -58,7 +52,6 @@ p{
   line-height: 1.6;
   color: #2b221a;
   font-weight: 500;
-  /* max-width: 600px;  */
   margin: 0;
   color: var(--text-color1);
 }
@@ -70,12 +63,9 @@ a{
   line-height: 1.6;
   color: #2b221a;
   font-weight: 500;
-  /* max-width: 600px;  */
   margin: 0;
   color: var(--text-color2);
 }
-
-
 
 .grid_container{
     height: 90vh;
@@ -90,56 +80,3 @@ a{
     border: 5px var(--color1) solid;
 }
 
-@keyframes hoverout {
-    0% {opacity: 100;}
-    100% {opacity: 0;}
-}
-
-.arrow_container{
-	position: fixed;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    border-radius: 20%; /* Makes the container a circle */
-    display: flex;
-	cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-
-    bottom: 0;
-    left: calc(50% - 20px);
-    transform: translateX(-50%);
-    z-index: 100;
-    width: 40px;  
-    height: 40px; 
-
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
-    animation-name: bounce;
-    animation-timing-function: ease-in-out;
-}
-
-@media (max-width: 768px) {
-    .arrow_container{
-        left: calc(90% - 20px);
-    }
-}
-
-.arrow_container:hover {
-    background-color: rgba(255, 0, 55, 50%); /* Fully opaque on hover */
-}
-
-
-#arrow{
-	display: flex;
-	aspect-ratio: 1;
-	justify-content: center;
-	align-items: flex-end;
-}
-
-
-@keyframes bounce{
-    0% {transform: translateY(0);}
-    30% {transform: translateY(-10%);}
-    35% {transform: translateY(-11%);}
-    45% {transform: translateY(0);}
-    100%{transform: translateY(0);}
-}

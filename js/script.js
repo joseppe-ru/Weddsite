@@ -1,4 +1,3 @@
-
 //var Countdown_kachel = document.getElementById('countdown');
 var Countdown_kachel = document.getElementsByClassName('countdown');
 
