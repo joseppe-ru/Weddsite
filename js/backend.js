@@ -12,7 +12,7 @@ async function testConnection() {
 // Zum Testen direkt aufrufen
 testConnection();
 
-async function fetchShoppingList() {
+async function fetchWishList() {
     try {
         const response = await fetch('/api/wishlist');
         const items = await response.json();
@@ -45,3 +45,5 @@ async function fetchShoppingList() {
 
     }
 }
+
+fetchWishList();
