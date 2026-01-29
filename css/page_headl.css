@@ -52,7 +52,7 @@ header {
 
   animation-range-start: 0%; 
   animation-range-end: 50%;
-  filter: drop-shadow(0vw 0vh 15px var(--color2));
+  filter: drop-shadow(0vw 0vh 50px var(--color1));
 }
 
 .heart_cut{
@@ -89,10 +89,8 @@ header {
   left: 15vw;
   height:50vh;
   width: 70vw;
-  filter: drop-shadow(0vw 0vh 15px var(--color2));
   } 
   100% {  
- filter: drop-shadow(0vw 0vh 15px var(--color2));
   top: 2vh;
   left: 5vw;
   height: 8vh;
