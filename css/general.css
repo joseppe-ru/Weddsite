@@ -23,6 +23,7 @@ html{
   overflow: scroll;
   scroll-snap-type: y mandatory;
   scroll-padding-top: 0;
+  scroll-snap-stop: always;
   margin:0;
   scrollbar-width: none;
 }
