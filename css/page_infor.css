@@ -58,6 +58,8 @@
   transition: height 0.5s;
   transition-timing-function: ease-in-out;
   margin-bottom: 2%;
+  align-items: center;
+  text-align: center;
 }
 
 .active_accordion + .info_collumn{
@@ -93,4 +95,8 @@
     font-family: 'Playfair Display', serif;
     margin: 0 auto;
     display: block;
+}
+
+.kontakt_pic{
+  width: 50%;
 }

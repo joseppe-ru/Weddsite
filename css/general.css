@@ -80,3 +80,19 @@ a{
     border: 5px var(--color1) solid;
 }
 
+
+li{
+  display: list-item; 
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: var(--text-color1);
+  text-align: left;}
+
+
+/* ul{ */
+/*   display: list-item;  */
+/*     font-family: inherit; */
+/*     font-size: inherit; */
+/*     line-height: inherit; */
+/*     color: inherit;} */

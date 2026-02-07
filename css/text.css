@@ -27,9 +27,9 @@
   font-family: 'Playfair Display', serif;
   font-style: italic;
 }
-.headline.hl6{
+.hl6{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.4rem;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
@@ -51,6 +51,13 @@
 
 }
 .hl1{
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.hl2{
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
@@ -81,5 +88,10 @@
   background-color: var(--color2);
   border-radius: 20px;
 }
+
+.inner_link{
+text-decoration: underline;
+}
+
 
 

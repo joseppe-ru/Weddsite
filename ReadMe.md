@@ -1,33 +1,12 @@
 # Hochzeitswebsite
 
-## Design
-das Design dieser Website soll Einheitlich dem Design einer *Alten DDR Zeitung* folgen
+Die Planung habe ich im grunde komplett verworfen, aber nicht schlimm, das Ergebnis ist trotzdem gut.
+Coll krass viel:
 
-## Inhalte
-- aktuelle Informationen zur Hochzeit
-	> Wann
-	> Wo
-	> allgemeiner Ablauf
-	> (Gäste)
-	> Kontaktinformationen
-	> Anreise und Maps
-	> Kalendar oder andere Planungsfortschritte
-	> Essen ...
-- Geschenke informationen 
-	> Was dürfen Gäste mitbringen
-- Dev-Bereich mit Passwort 
-	> Einziger Bereich für Interaktionen
-	> Für Planungsrelevante Informationen
-	> Abstimmungen 
-	> Übersicht für beteiligte und Mitarbeiter 
-	> Mitarbeiter übersicht (Trauzeugen + Bild, andere Teams + Kontaktinformationen)
-- Sonstiges
-	> Wetter
-	> Wünsche (Musik oder sonstiges)
-- Links
-	> Nextcloud (Bilder Hochladen)
-	> ...
+- light und dark mode
+- einheitliches Designe
+- coole features
+- einzigartige dashboards
 
-jetzt unter dieser URL zur Verfügung:...
-## Zeitplan
-Ich habe keinen blassen Schimmer
+backend ermöglicht fetchen einer Liste von Homeassistant -> Wunschliste
+Dank der Rückständigkeit von Apple's Safari muss ich die Scrollanimation komplett in JS propgrammieren. Danke dafür!

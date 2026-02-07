@@ -62,6 +62,10 @@ SlindeShow
   font-size: 4rem;
 }
 
+.nav_symbol{
+  font-size: 2rem;
+}
+
 .dot {
   cursor: pointer;
   height: 3.5vh;

@@ -92,7 +92,6 @@ slide_container.addEventListener('scroll', () => {
     for (let i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    // Richtigen Punkt aktiv setzen (falls vorhanden)
     if (dots[index]) {
         dots[index].className += " active";
     }
@@ -114,23 +113,33 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-
-    if (this.classList.contains("active_accordion")){
+function acc_toggle(e) {
+  var active;
+  if (typeof e == 'number') {
+    console.log("nmber")
+    active = acc[e];
+  }else if (typeof e == 'object') {
+    console.log("object");
+    active = this;
+  }
+  
+    if (active.classList.contains("active_accordion")){
       return;
     }
 
+
     for (var j=0;j<acc.length;j++){
-      if (acc[j]==this){
+      if (acc[j]==active){
         acc[j].classList.add("active_accordion")
        }
       else{
         acc[j].classList.remove("active_accordion")
       }
     }
+}
 
-  });
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", acc_toggle);
 }
 
 console.log("Toggle first accordeon...");
@@ -138,8 +147,29 @@ acc[0].classList.add("active_accordion");
 acc[0].nextElementSibling.style.display = "block";
 
 
+function open_contact_acc(i) {
+  window.scrollTo({
+    top: window.innerHeight*3,
+    behavior: 'smooth' 
+  });
+  acc_toggle(i);
+}
 
-/* Text für eine Überschrift der Seite*/
+var open_contacts = document.getElementsByClassName("open_kontakt");
+for (i=0; i< open_contacts.length; i++){
+  open_contacts[i].addEventListener("click",  ()=>{open_contact_acc(2)});
+}
+
+var open_wish = document.getElementsByClassName("open_wish");
+for (i=0; i< open_wish.length; i++){
+  open_wish[i].addEventListener("click", ()=>{open_contact_acc(1)});
+}
+var open_prog = document.getElementsByClassName("open_prog");
+for (i=0; i< open_prog.length; i++){
+  open_prog[i].addEventListener("click", ()=>{open_contact_acc(0)});
+}
+
+
 window.addEventListener('scroll', () => {
   const scrolled = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
   document.body.style.setProperty('--scroll', scrolled);
