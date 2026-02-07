@@ -18,3 +18,9 @@
     top: 15%;
     text-align: center;
 }
+
+.giffy{
+  width:70%;
+  border-radius: 100%;
+  opacity:80%;
+}
