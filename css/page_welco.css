@@ -1,6 +1,6 @@
 .page_welcome{
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh; */
+    /* width: 100vw; */
     text-align: center;
 	justify-content: center;
     background-color: var(--back-color);
@@ -8,7 +8,7 @@
 
 .wolcome_container_new{
     width: 95vw;
-    height: 85vh;
+    height: 80vh;
 }
 
 

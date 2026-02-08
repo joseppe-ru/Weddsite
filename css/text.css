@@ -1,20 +1,20 @@
 .kalligrafic {
   font-family: 'Great Vibes', cursive;
-  font-size: 1.8em;
-  font-weight: normal;
-  line-height: 0.8;
+  font-size: 2.1em;
+  /* font-weight: normal; */
+  /* line-height: 0.8; */
   padding: 0 5px;
 }
 .elegant {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   letter-spacing: 3px; 
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
   font-weight: 700;
 }
 
 .highlight {
-  background: linear-gradient(120deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.4) 100%);
+  background: linear-gradient(90deg, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 50%);
   background-repeat: no-repeat;
   background-size: 100% 40%;
   background-position: 0 88%;
@@ -27,14 +27,22 @@
   font-family: 'Playfair Display', serif;
   font-style: italic;
 }
-.hl6{
-    font-weight: 700;
-    font-size: 1.4rem;
-    box-sizing: border-box;
-    padding: 10px 0 10px 0;
+.hl6{ 
+  font-family: 'Droid Serif', serif;
+   -moz-hyphens: auto;
+   -o-hyphens: auto;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+   hyphens: auto; 
+  /* overflow-wrap: break-word; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-weight: 700; */
+  font-size: 2.5em;
+  /* box-sizing: border-box; */
+  padding: 10px 0 10px 0;
 }
 .hl6:before{
-    border-top: 1px solid #2f2f2f;
+    border-top: 3px solid #2f2f2f;
     content: '';
     width: 100px;
     height: 7px;
@@ -42,13 +50,12 @@
     margin: 0 auto;
 }
 .hl6:after{
-    border-bottom: 1px solid #2f2f2f;
+    border-bottom: 3px solid #2f2f2f;
     content: '';
-    width: 100px;
+    width: 50vw;
     height: 10px;
     display: block;
     margin: 0 auto;
-
 }
 .hl1{
     font-weight: 700;
