@@ -148,9 +148,9 @@ acc[0].nextElementSibling.style.display = "block";
 
 
 function open_contact_acc(i) {
-  acc[i].scrollIntoView({
+  acc[0].scrollIntoView({
     behavior: 'smooth',
-    block: 'center'
+    block: 'start'
   });
 
   acc_toggle(i);
