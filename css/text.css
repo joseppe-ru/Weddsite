@@ -93,5 +93,9 @@
 text-decoration: underline;
 }
 
+.inner_link:hover{
+  cursor: pointer;
+}
+
 
 
