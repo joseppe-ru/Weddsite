@@ -49,3 +49,15 @@ async function fetchWishList() {
 }
 
 fetchWishList();
+
+
+
+/* Button Für Kafee Anmeldung
+fetch("/api", {
+    method: "POST", 
+    headers: { "Content-Type": "application/json" }, // Header nicht vergessen!
+    body: JSON.stringify({ tid: "1" })
+})
+.then(res => res.json())
+.then(data => console.log(data));
+*/
