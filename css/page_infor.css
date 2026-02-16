@@ -44,7 +44,8 @@
   border-bottom-right-radius: 0px;
 }
 
-.info_collumn {
+.acc_content_wrapper{/* .info_collumn { */
+  position:relative;
   flex-grow:0;
   flex-basis:0;
   transition: flex-grow 0.5s cubic-bezier(0.25, 1, 0.5, 1);
@@ -54,7 +55,7 @@
   color: var(--text-color1); 
   padding: 0 10px;
   display: block;
-  overflow: scroll;
+  overflow: hidden;
   width:auto;
   margin-bottom: 2%;
   border-bottom-left-radius: 5px;
@@ -65,13 +66,18 @@
   margin-bottom: 5px;
   align-items: center;
   text-align: center;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
-.active_accordion + .info_collumn{
+.active_accordion + .acc_content_wrapper{/* .info_collumn { */
   flex-grow:1;
   overflow-y:auto;
-  height: auto;
+  height: 100%;
+}
+
+
+.info_collumn{
+overflow: scroll;
 }
 
 .roll_symbol{
@@ -110,18 +116,20 @@
 }
 
 
-.fade-overlay {
+.fade_overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 80px; /* Höhe des Verlaufs */
+  height: 5vh; /* Höhe des Verlaufs */
   
   /* Der Verlauf: Transparent zu Weiß (oder deiner Hintergrundfarbe) */
-  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.5));
   
   /* WICHTIG: Klicks durchlassen! */
   pointer-events: none; 
   
   z-index: 10; /* Über dem Text */
+
+
 }
