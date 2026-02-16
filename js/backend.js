@@ -31,17 +31,17 @@ async function fetchWishList() {
     } catch (error) {
         console.error("Fehler beim Laden der Liste:", error);
         
-        // // Testwerte für Entwicklung
-        // const listContainer = document.getElementById('wishlist');
-        // listContainer.innerHTML = '';
-        //
-        // const items = ["Friggl-Fraggl", "Regenbogeneinhorn", "Plumbus"];
-        //
-        // items.forEach(item => {
-        //     const li = document.createElement('li');
-        //     li.textContent = item;
-        //     listContainer.appendChild(li);
-        // });
+        // Testwerte für Entwicklung
+        const listContainer = document.getElementById('wishlist');
+        listContainer.innerHTML = '';
+
+        const items = ["Friggl-Fraggl", "Regenbogeneinhorn", "Plumbus"];
+
+        items.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            listContainer.appendChild(li);
+        });
      
       setTimeout(fetchWishList, 5000);
 

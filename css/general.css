@@ -49,12 +49,15 @@ section{
 p{
   padding: 2vh;  
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   color: #2b221a;
   font-weight: 500;
   margin: 0;
   color: var(--text-color1);
+}
+b{
+  font-size: 1.4rem;
 }
 
 a{
@@ -83,12 +86,13 @@ a{
 
 
 li{
-  display: list-item; 
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    color: var(--text-color1);
-  text-align: left;}
+  /* display: list-item;  */
+  /*   font-family: inherit; */
+  /*   font-size: inherit; */
+  /*   line-height: inherit; */
+  /*   color: var(--text-color1); */
+  /* text-align: left; */
+}
 
 
 /* ul{ */
